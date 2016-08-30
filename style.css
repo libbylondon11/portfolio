@@ -1,7 +1,7 @@
 .offer-box {
     background: #f4e759;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .offer-box h1 {
@@ -11,4 +11,36 @@
 .offer-box p {
     color: #080808;
     font-size: 1.2em;
+}
+.row {
+  margin-top: 5%;
+}
+img {
+  display: inline;
+  height: auto;
+}
+a {
+  display: center;
+}
+.btn-default([disabled]):hover {
+}
+.btn-custom {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+  border-color: white;
+  background-color: white;
+  letter-spacing: .8px;
+  margin-left: 1%;
+  margin-right: 1%;
+  white-space: normal;
+}
+.btn-custom:hover {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+  border-color: grey;
+  background-color: grey;
+  letter-spacing: .8px;
+  white-space: normal;
 }
