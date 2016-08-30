@@ -15,12 +15,25 @@
 .row {
   margin-top: 5%;
 }
-img {
+/*img {
   display: inline;
-  height: auto;
+  height: 10px;
+  color: blue;*/
+}
+img {
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+svg {
+  display: left;
+  width: 90%;
+  margin-bottom: 1%;
 }
 a {
   display: center;
+}
+.well {
+  background-color: white;;
 }
 .btn-default([disabled]):hover {
 }
