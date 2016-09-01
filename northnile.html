@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="routerApp">
   <head>
     <meta charset="utf-8">
-    <title>North Nile</title>
-  </head>
-  <body>
-<p> North Nile </p>
-  </body>
-</html>
+    <title>Libby London</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="angular/angular.min.js"></script>
+    <script src="angular-route/angular-route.min.js"></script>
+    <script src = "client.js"></script>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- <base href="/" /> -->
+</head>
+<body ng-controller = "NileController">
+<div class = "nileContainer">
+  <!-- <div class="col-md-8"> -->
+  <h1>Nile of the North Case Study </h1>
+  <a class="btn btn-custom" href="/wireframeNile" role = "button">View Wireframe</a>
+  <p> Project Sweetie Pie is a community organization that supports urban agriculture and community
+    efforts to promote local and healthy eating in the low-income North Minneapolis neighborhood that is often overlooked. </p>
+<h2> Challenge</h2>
+  <p>  Project Sweetie Pie, along with other northside residents, advocate ongoing efforts to eradicate food
+    insecurity by creating a shared vision for North-Minneapolis' food system and community. They believe that
+    improving our food system is key to overcoming economic, environmental, and social barriers to health and
+    revitalization of their community. They wanted to create a visually appealing map that highlights the incredible
+    food resources on the north side (community gardens, restaurants, organizations, and food centers) so that both community
+     members and non-community members can start to see North Minneapolis as a place of vitality and abundance.
+</p>
+<br>
+<h2>Opportunity</h2>
+<p>We decided to develop an interactive story map application to display food resources in North Minneapolis, offering an engaging portal
+ to give community members a voice in the story of their neighborhood.
+</p>
+<h2>My Role: UX Wireframing, Mobile Design, Front and Back-end Development </h2>
+<h2>Time Constraint: 21 days</h2>
+<h2>Research</h2> <p> Project Sweetie Pie and their group of community members, came to us with a general understanding of who
+  the map application would be created for.  With their guidance, we walked through the community profiles and users who
+  they had interviewed and asked about use before coming to us.  Based off of that data, we learned that most users would be
+  using the application from their mobile device, they ranged from teenagers to seniors, and they would be fufilling their need
+  to learn more about their neighborhood, bring people to their food resource, and/or use the application to highlight their
+  business or farm. </p>
+<h2> Process & User Profile </h2>
+<p> Because the project conception belongs to Project Sweetie Pie and the north Minneapolis community members, we had to continually
+  make sure that they were getting their main goal met: to have a visually appealing map highlighting the wonderful food resources
+  in north side of Minneapolis.  While our client assumed that people would naturally discover the map, we thought differently. Based off of
+  our basic user research, we designed with two general user personas in mind: the first was was JC, a 17 year old kid living in North Minneapolis
+  who works for a local urban farm in the community.  He wants to include the farm on the map to bring in new customers, to add their
+  farm events to it, and to include pictures and videos from the season.  He has a smart phone and is comfortable using apps.  The second significant
+  user persona that we developed was Evie, a 68 year old north Minneapolis resident who loves to garden and meet neighbors, but she is not
+  sure how or where to learn about food related events or organizations in their neighborhood.  She is okay with computers, and likes
+  to use the one at the library, but she can't do much more than make phone calls with her phone.  Once we worked through these two
+  personas, it was clear to us that making a simple and easy to use site that is mobile and responsive was critical to getting the kind
+  of cross spectrum engagement our client wanted. </p>
+  <div class = "row">
+  <img src= "nile.jpg" class="img-responsive" alt="nilewhiteboard">
+  <img src= "splash.jpg" class="img-responsive" alt="splashnile">
+</div>
+
+<h2>Development</h2>
+<p> We worked as a team of 5 people to design and develop the application. We started out our process by white boarding the views,
+  functionality, and database tables needed. From there we determined that anyone using the application can suggest new resources for the map.
+  After their suggestion is submitted, these resources will be put in a moderation queue for administrator approval prior to publishing. Users will be able to create an account to update
+the content of their resource(s). Each resource will be required to have the following content: address/coordinates,
+contact information (name, email), a name/title for the location, a description, and a food resource category.
+Community members are encouraged to add their own resources to the map via the user portal or admin portal.
+  We used the following technologies: PostgresSQL, Express.js, Angular.js, Node.js, AngularMaterials.js, API’s, Leaflet.js.
+</p>
+<a class="btn btn-custom" href="/wireframeNile" role = "button">View Wireframe</a>
+<div class = "well">
+</div>
+</div>
+</body>
+</html
