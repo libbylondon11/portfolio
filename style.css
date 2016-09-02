@@ -188,13 +188,84 @@ h2 {
 .bulkContainer .row {
   margin-left: 18%;
 }
+/////PRI CASE STUDY ///
+h2 {
+  text-align: center;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+.priContainer h1 {
+  color: black;
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Open Sans', sans-serif;
+}
+.priContainer{
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start
+  grid-row-end: 3
+}
+.priContainer .btn-custom {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  border-color: black;
+  background-color: white;
+  letter-spacing: .8px;
+  white-space: normal;
+}
+.priContainer .btn-custom:hover {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  border-color: black;
+  background-color: grey;
+  letter-spacing: .8px;
+  white-space: normal;
+}
+.priContainer a {
+  display: center;
+  margin-left: 15%;
+
+}
+
+.priContainer p {
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start
+  grid-row-end: 3;
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.priContainer img {
+  height: 400px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 33%;
+
+}
+.priContainer.row img {
+  height: 380px;
+  display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 3%;
+  margin-left: 2%;
+  /*margin-left: 35%;*/
+}
+.priContainer .row {
+  margin-left: 18%;
+}
 
 h2 {
   text-align: center;
   color: black;
   font-family: 'Open Sans', sans-serif;
 }
-.bulkContainer h1 {
+.priContainer h1 {
   color: black;
   text-align: center;
   font-size: 65px;
