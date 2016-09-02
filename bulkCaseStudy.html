@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Libby London</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="angular/angular.min.js"></script>
+    <script src="angular-route/angular-route.min.js"></script>
+    <script src = "client.js"></script>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- <base href="/" /> -->
+  </head>
+    <body ng-controller = "BulkController">
+  <div class = "bulkContainer">
+      <!-- <div class="col-md-8"> -->
+      <h1>Bulk Spice Identifier Case Study </h1>
+      <a class="btn btn-custom" href="/wireframeBulk" role = "button">View Wireframe</a>
+<h2> Challenge </h2>
+      <p>  I noticed that many of my friends, neighbors, and family shop for bulk spices at the local
+co-op grocery stores in Minneapolis as a way to save money, select exactly how much quantity of
+a certain spice they want, and to reduce packaging waste. When shopping in the bulk aisle, customers
+have to scoop out their spice and write the PLU number on the container. They are not required to
+write down the name of the spice. One day, as I was baking a cake with a friend, my friend went to
+the cupboard to find the cornstarch, and she saw nothing labeled “cornstarch,” just a few co-op containers
+with PLU numbers and no names. My friend thought that she had purchased cornstarch at one time, but had
+no idea what any of the PLU numbers before her meant.  I watched as her friend threw away three
+containers of unnamed bulk spices because she did not know what they were, and then headed out the door to
+pick up some cornstarch from the grocery store just so we could finish our recipe.  This inspired me to create something that would help
+people identify their spices bought from co-op grocery stores so that they don’t waste time and waste spices.
+</p>
+<br>
+<h2>Opportunity</h2>
+<p>I thought that creating an application to discover the name of spices from co-op grocery stores would
+help in saving time and reducing waste.  However, I was not sure how prevalent this problem was and among who, so I decided
+to interview co-op shoppers.
+</p>
+<h2>My Role: UX Wireframing, User Research, Mobile Design, Front and Back-end Development </h2>
+<h2>Time Constraint:  15 days</h2>
+<h2>Process</h2>
+<p>I wanted to understand if the problem of needing to identify spices bought from co-op grocery stores was a
+  common issue, and if so, what would help customers to not waste time and money by buying new spices and throwing
+  away unidentified bulk spices.</p>
+<h2>Research</h2>
+<p>I interviewed 10 co-op bulk aisle shoppers, and asked them questions about their age, job titles, reason for shopping in the bulk
+  aisle at co-ops, and about their experience with bulk spices from co-ops. I found that overwhelmingly people did
+  tend to forget to write the name of their bulk items down. I found that in almost every case of an interviwee finding
+  an unnamed bulk spice in their cupboard, they had to go buy a new one. They would first try to smell or taste the spice, but
+  if they could not identify it that way, they had to buy a new one. I also found that in many instances users were in their
+  kitchen cooking or baking something when they found their unnamed spice. </p>
+<!-- <div class = "col-md-8"> -->
+<div class = "well">
+<h2>User Profile</h2>
+<p>After conducting the user interviews, I analyzed the results and came up with our user profile.
+	 Name: Matt Hansen<br>
+	Young: Age 21-30<br>
+	Family: Single<br>
+	Occupation: Program Coordinator<br>
+	Technology: iPhone <br>
+	Architype: Buys bulk for environmental and financial reasons. Is busy and grocery shops for just himself and without a list.
+  <br>He wants to shop at the co-op, but likes to do it as cheaply as possibly.</p>
+</div>
+<h2>Analysis and Process</h2>
+<p>Based on my user interviews and resulting user profile, I designed for simplicity and ease of use.
+   I wanted to create an application that was easy to use and designed for when users are in the kitchen cooking.</p>
+   <div class = "image">
+<img src= "whiteboardbulk.JPG" class="img-responsive" alt="whiteboardbulkpicture">
+<h2>Development</h2>
+<p>I whiteboarded out my database design as well as all of the functionality of the pages. I designed the application to be mobile first and responsive. I wanted the application to be simple and not involve a lot of
+ clicking and any extra functionality since users would likely be already in the middle of cooking, and not wanting to spend too much time
+ messing around on their phones.  I used javascript, express, node.js, and angular to create my pages and views.  The first
+ main page is the log in page, and then the home page shows the co-ops, and the users can click on their co-op.  The information
+ on spices is populated via an angular ng-view partial. The log in feature was an important and challenging part of the development
+  phase.  Using passport.js, I developed the site to have log in capabilities. The database was developed using Postgresql and one
+  of the biggest challenges was designing tables that were easily joined, as well as creating my own API of the local co-op grocery stores spices.
+</p>
+<a class="btn btn-custom" href="/wireframeBulk" role = "button">View Wireframe</a>
+<div class = "well">
+</div>
+</div>
+</div>
+</body>
+</html
