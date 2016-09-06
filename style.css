@@ -1,17 +1,3 @@
-.offer-box {
-    background: #f4e759;
-    height: 300px;
-    border-radius: 15px;
-}
-
-.offer-box h1 {
-    color: #080808;
-}
-
-.offer-box p {
-    color: #080808;
-    font-size: 1.2em;
-}
 .row {
   margin-top: 5%;
 }
