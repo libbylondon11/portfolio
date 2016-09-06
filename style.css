@@ -233,6 +233,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 14px;
+  display: center;
   border-color: black;
   background-color: white;
   letter-spacing: .8px;
@@ -242,14 +243,14 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 14px;
+  display: center;
   border-color: black;
   background-color: grey;
   letter-spacing: .8px;
   white-space: normal;
 }
-.priContainer a {
-  display: center;
-  margin-left: 15%;
+.priContainer .btn-custom {
+  text-align: center;
 
 }
 
@@ -264,10 +265,9 @@ h2 {
 }
 
 .priContainer img {
-  height: 400px;
+  height: 300px;
   padding-top: 2px;
   padding-bottom: 2px;
-  margin-left: 33%;
 
 }
 .priContainer.row img {

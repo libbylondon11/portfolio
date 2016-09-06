@@ -1,10 +1,25 @@
 $(function(){
-    $('.tdt').click(function(){
+    $('#tdt').click(function(){
         window.location='tdt.html'
     });
 });
 $(function(){
     $('.bulk').click(function(){
         window.location='bulkCaseStudy.html'
+    });
+});
+$(function(){
+    $('.north').click(function(){
+        window.location='northnile.html'
+    });
+});
+$(function(){
+    $('.permaculture').click(function(){
+        window.location='permaculture.html'
+    });
+});
+$(function(){
+    $('.permaculture').click(function(){
+        window.location='permaculture.html'
     });
 });
