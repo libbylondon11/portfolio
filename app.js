@@ -1,0 +1,10 @@
+$(function(){
+    $('.tdt').click(function(){
+        window.location='tdt.html'
+    });
+});
+$(function(){
+    $('.bulk').click(function(){
+        window.location='bulkCaseStudy.html'
+    });
+});

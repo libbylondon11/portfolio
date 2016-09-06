@@ -6,93 +6,191 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <script src = "app.js"></script> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Scrolling Nav JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
   <script src="https://use.fontawesome.com/b1d4f15100.js"></script>
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <script src = "index.php"></script>
+  <script src = "app.js"></script>
+  <link href ='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'>
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
   </head>
-  <body>
-    <div class="container">
-    <div class="row">
-    <div class="col-md-4">
-      <div class="well">
-        <div class = "tdt"><h1>Think Dream Tank</h1></div>
-        <a class="btn btn-custom btn-xs" href="tdt.html" class="img-rounded img-responsive pull-right" role = "button">Think Dream Tank</a>
-        <a href = "tdt.html"><img src = "TDTipad.svg" class="pull-left" alt = "TDT"></a>
-          <p>
-            Think Dream Tank is a crowd sourced and community led project that aims
-            to create a space where people from any background can dream about their future and share a conversation about their hopes with others.
-          </p>
-    </div>
-    </div>
-    <div class="col-md-4">
-     <div class="well">
-        <h1>Bulk Powder</h1>
-        <a class="btn btn-custom btn-xs" href="bulkCaseStudy.html" class="img-rounded img-responsive pull-right" role = "button">Bulk Powder App</a>
-        <a href = "bulkCaseStudy.html"><img src = "Coopbulkapp.svg" class="img-rounded img-responsive pull-left" alt = "white"></a>
-            <p>
-              I designed and developed this site as a resource for people that have unlabeled bulk items at
-              home and wish to identify what they are.  The website helps users identify and label these items
-              based on PLU number and grocery store. I developed this site as a solo project when I was a student at
-              Prime Digital Academy.
-              </p>
-       </div>
-      </div>
-      <div class="col-md-4">
-       <div class="well">
-        <h1>Nile of the North</h1>
-        <a class="btn btn-custom btn-xs" href="northnile.html" class="img-rounded img-responsive pull-right" role = "button">North Nile</a>
-           <a href = "northnile.html"><img src = "northnilemapMobile.svg" class="img-rounded img-responsive pull-left" alt = "NileofNorthApp"></a>
-        <p> We designed this to help Project Sweetie Pie, a local non-profit based in north Minneapolis that supports
-          young people in the neighborhood in gaining valuable farming skills. We created an easy to use
-           map that features a responsive map of food resources.  Community members are encouraged to add their own resources to the map.
-        </p>
-      </div>
-     </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-         <div class = "well">
-        <h1>Permaculture</h1>
-        <a class="btn btn-custom btn-xs" href="PRIMobileFront.svg" class="img-rounded img-responsive pull-right" role = "button">Permaculture</a>
-           <a href = "permaculture.html"><img src = "PRIMobileFront.svg" class="img-rounded img-responsive pull-left" alt = "NileofNorthApp"></a>
-            <p>
-              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                    tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                    semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
-                    ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
-                  </p>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Libby</a>
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+  <section id="intro" class="intro-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1>Scrolling Nav</h1>
+                  <p><strong>Hello, I'm Libby</strong></p>
+                  <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+              </div>
+          </div>
       </div>
+  </section>
 
-     <div class="col-md-4">
-      <div class="well">
-       <h1>Art Shanties </h1>
-       <a class="btn btn-custom btn-xs" href="artshanties.html" role = "button">Art Shanties</a>
-           <p>
-             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                   tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                   semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
-                   ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
-            </p>
-     </div>
-    </div>
+  <!-- About Section -->
+  <section id="about" class="about-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1>About Section</h1>
+              </div>
+          </div>
+      </div>
+  </section>
 
-    <div class="col-md-4">
-     <div class="well">
-      <h1>CPPE</h1>
-      <a class="btn btn-custom btn-xs" href="cppe.html" role = "button">CPPE</a>
-          <p>
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                  tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                  semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
-                  ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
-            </p>
-    </div>
-   </div>
-   </div>
-  </body>
+  <!-- Services Section -->
+  <section id="portfolio" class="portfolio-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-md-4">
+                      <div class="well">
+                        <div class = "tdt">
+                        <h1>Think Dream Tank</h1>
+                        <a class="btn btn-custom btn-xs" href="tdt.html" class="img-rounded img-responsive pull-right" role = "button">Think Dream Tank</a>
+                        <a href = "tdt.html"><img src = "TDTipad.svg" class="pull-left" alt = "TDT"></a>
+                          <p>
+                            Think Dream Tank is a crowd sourced and community led project that aims
+                            to create a space where people from any background can dream about their future and share a conversation about their hopes with others.
+                          </p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                     <div class="well">
+                       <div class = "bulk">
+                        <h1>Bulk Powder</h1>
+                        <a class="btn btn-custom btn-xs" href="bulkCaseStudy.html" class="img-rounded img-responsive pull-right" role = "button">Bulk Powder App</a>
+                        <a href = "bulkCaseStudy.html"><img src = "Coopbulkapp.svg" class="img-rounded img-responsive pull-left" alt = "white"></a>
+                            <p>
+                              I designed and developed this site as a resource for people that have unlabeled bulk items at
+                              home and wish to identify what they are.  The website helps users identify and label these items
+                              based on PLU number and grocery store. I developed this site as a solo project when I was a student at
+                              Prime Digital Academy.
+                              </p>
+                       </div>
+                      </div>
+                    </div>
+                      <div class="col-md-4" href = "northnile.html">
+                       <div class="well">
+                        <h1>Nile of the North</h1>
+                        <a class="btn btn-custom btn-xs" href="northnile.html" class="img-rounded img-responsive pull-right" role = "button">North Nile</a>
+                           <a href = "northnile.html"><img src = "northnilemapMobile.svg" class="img-rounded img-responsive pull-left" alt = "NileofNorthApp"></a>
+                        <p> We designed this to help Project Sweetie Pie, a local non-profit based in north Minneapolis that supports
+                          young people in the neighborhood in gaining valuable farming skills. We created an easy to use
+                           map that features a responsive map of food resources.  Community members are encouraged to add their own resources to the map.
+                        </p>
+                      </div>
+                     </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-4">
+                         <div class = "well">
+                        <h1>Permaculture</h1>
+                        <a class="btn btn-custom btn-xs" href="PRIMobileFront.svg" class="img-rounded img-responsive pull-right" role = "button">Permaculture</a>
+                           <a href = "permaculture.html"><img src = "PRIMobileFront.svg" class="img-rounded img-responsive pull-left" alt = "NileofNorthApp"></a>
+                            <p>
+                              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                                    tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                                    semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
+                                    ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+                                  </p>
+                            </div>
+                      </div>
+
+                     <div class="col-md-4">
+                      <div class="well">
+                       <h1>Art Shanties </h1>
+                       <a class="btn btn-custom btn-xs" href="artshanties.html" role = "button">Art Shanties</a>
+                           <p>
+                             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                                   tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                                   semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
+                                   ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+                            </p>
+                     </div>
+                    </div>
+
+                    <div class="col-md-4">
+                     <div class="well">
+                      <h1>CPPE</h1>
+                      <a class="btn btn-custom btn-xs" href="cppe.html" role = "button">CPPE</a>
+                          <p>
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                                  tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                                  semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
+                                  ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+                            </p>
+                    </div>
+                   </div>
+                   </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1>Contact</h1>
+              </div>
+          </div>
+      </div>
+  </section>
+
+</body>
 </html>
