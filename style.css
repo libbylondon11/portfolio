@@ -1,35 +1,53 @@
-.row {
-  margin-top: 5%;
-}
 
-img {
+/*img {
   padding-bottom: 1px;
   margin-bottom: 1px;
-}
+}*/
 /*svg {
   display: left;
   max-width: 100%;
   max-height: 100%;
   margin-bottom: 1%;
 }*/
+h2 {
+  text-align: center;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
 a {
   display: center;
 }
+/*.row-fluid {
+  margin-top: 5%;
+}*/
+/*.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}*/
+svg {
+  height: 100%;
+  width: 100%;
+}
+.box {
+  width: 768px;
+}
 
-.well:after, .well:before {
+.box:after, .box:before {
       position: absolute;
       opacity: 0;
       transition: all 1.0s;
       -webkit-transition: all 1.0s;
   }
-.well {
+.box {
     position:relative;
-    border:1px solid black;
+    border:.3px solid #f8f8f8;
     width:100%; height:100%;
-    background-color:eggshell;
+    background-color:#f8f8f8
 
 }
-.well:before {
+.box:before {
     content: attr(data-content);
     width: 100%;
     height: 100%;
@@ -41,9 +59,8 @@ a {
     box-sizing: border-box;
     -moz-box-sizing:border-box;
 }
-.well:after {
-    /*content: 'UX & Development';*/
-    content: attr(data-content);
+.box:after {
+    content: 'UX & Development';
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
@@ -54,7 +71,7 @@ a {
     width: 100%;
     height:100%;
     top: 0; left:0;
-    background:rgba(0,0,0,0.85);
+    background:rgba(0,0,0,0.8);
 
 }
 /*.bulk:before {
@@ -63,33 +80,16 @@ a {
 /*.bulk {
   content: 'UX and Development';
 }*/
-.well:hover:after, .well:hover:before {
+.box:hover:after, .box:hover:before {
       opacity: 1;
 }
 /*.well img {
   width: 100%;
 }*/
-.btn-default([disabled]):hover {
-}
-.btn-custom {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-size: 20px;
-  border-color: white;
-  background-color: white;
-  letter-spacing: .8px;
-  margin-left: 1%;
-  margin-right: 1%;
-  white-space: normal;
-}
-.btn-custom:hover {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-size: 20px;
-  border-color: grey;
-  background-color: grey;
-  letter-spacing: .8px;
-  white-space: normal;
+
+.box img {
+  width: 768px;
+  display: center;
 }
 .nileContainer {
   grid-column-start: 2;
@@ -150,11 +150,7 @@ a {
   margin-left: 18%;
 }
 
-h2 {
-  text-align: center;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-}
+
 .nileContainer h1 {
   color: black;
   text-align: center;
@@ -221,11 +217,33 @@ h2 {
 .bulkContainer .row {
   margin-left: 18%;
 }
-/////PRI CASE STUDY ///
+/////TDT CASE STUDY ///
 h2 {
   text-align: center;
   color: black;
   font-family: 'Open Sans', sans-serif;
+}
+.btn-default([disabled]):hover {
+}
+.btn-custom {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+  border-color: white;
+  background-color: white;
+  letter-spacing: .8px;
+  margin-left: 1%;
+  margin-right: 1%;
+  white-space: normal;
+}
+.btn-custom:hover {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+  border-color: grey;
+  background-color: grey;
+  letter-spacing: .8px;
+  white-space: normal;
 }
 .priContainer h1 {
   color: black;
@@ -293,11 +311,7 @@ h2 {
   margin-left: 18%;
 }
 
-h2 {
-  text-align: center;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-}
+
 .priContainer h1 {
   color: black;
   text-align: center;

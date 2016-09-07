@@ -1,5 +1,5 @@
 $(function(){
-    $('#tdt').click(function(){
+    $('.tdt').click(function(){
         window.location='tdt.html'
     });
 });
@@ -22,4 +22,8 @@ $(function(){
     $('.permaculture').click(function(){
         window.location='permaculture.html'
     });
+});
+
+$(function() {
+    $('.box').matchHeight();
 });
