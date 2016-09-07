@@ -6,12 +6,12 @@ img {
   padding-bottom: 1px;
   margin-bottom: 1px;
 }
-svg {
+/*svg {
   display: left;
   max-width: 100%;
   max-height: 100%;
   margin-bottom: 1%;
-}
+}*/
 a {
   display: center;
 }
@@ -32,6 +32,7 @@ a {
 .well:before {
     content: attr(data-content);
     width: 100%;
+    height: 100%;
     z-index: 5;
     transition: 2s;
     bottom: 0;
@@ -41,24 +42,33 @@ a {
     -moz-box-sizing:border-box;
 }
 .well:after {
-    content: 'UX';
+    /*content: 'UX & Development';*/
+    content: attr(data-content);
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 30px;
     text-align: center;
-    padding-top: 49%;
-    width: 100%; height:100%;
+    /*padding-top: 49%;*/
+    /*padding: 2px 2px;*/
+    width: 100%;
+    height:100%;
     top: 0; left:0;
     background:rgba(0,0,0,0.85);
 
 }
-
+/*.bulk:before {
+  content: attr(date-content);
+}*/
+/*.bulk {
+  content: 'UX and Development';
+}*/
 .well:hover:after, .well:hover:before {
       opacity: 1;
-  }
-
-
+}
+/*.well img {
+  width: 100%;
+}*/
 .btn-default([disabled]):hover {
 }
 .btn-custom {
@@ -152,7 +162,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.bulkContainer{
+.bulkContainer {
   grid-column-start: 2;
   grid-column-end: five;
   grid-row-start: row1-start
