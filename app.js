@@ -25,5 +25,5 @@ $(function(){
 });
 
 $(function() {
-    $('.box').matchHeight();
+    $('.well').matchHeight();
 });
