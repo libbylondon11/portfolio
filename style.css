@@ -29,6 +29,10 @@ body {
   margin: 0 0 0 0;
   margin:0; padding:0; box-sizing:border-box;
 }
+.portfolio-section .container {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
 .well:after, .well:before {
       position: absolute;
       opacity: 0;
