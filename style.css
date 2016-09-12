@@ -10,7 +10,11 @@ a {
 .row {
   display: flex;
 }
-
+.container {
+  text-align: center;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
 svg {
   /*max-height: 300px;*/
   display: block;
@@ -28,6 +32,10 @@ body {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   margin:0; padding:0; box-sizing:border-box;
+}
+
+.navbar-ex2-collapse {
+  float: right;
 }
 .portfolio-section .container {
   margin-top: 8%;
@@ -317,4 +325,10 @@ h2 {
   text-align: center;
   font-size: 65px;
   font-family: 'Open Sans', sans-serif;
+}
+footer {
+  text-align: center;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  display: center;
 }
