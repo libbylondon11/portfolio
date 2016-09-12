@@ -1,5 +1,5 @@
 $(function(){
-    $('.tdt').click(function(){
+    $('.tdtClass').click(function(){
         window.location='tdt.html'
     });
 });
