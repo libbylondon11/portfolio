@@ -1,7 +1,24 @@
-// $(document).ready(function () {
-//     $('.img-responsive').trigger('click');
-//    });
+$(document).ready(function () {
 
+    // document.getElementById("test").onclick = function () {
+    //     location.href = "tdt.html";
+    // };
+window.addEventListener("hashchange", function() { scrollBy(0, -50) })
+
+var shiftWindow = function() { scrollBy(0, -50) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+
+$(function(){
+    $('#test').click(function(){
+        window.location='tdt.html'
+    });
+});
+$(function(){
+    $('.tdtClass2').click(function(){
+        window.location='tdt.html'
+    });
+});
 $(function(){
     $('.tdtClass').click(function(){
         window.location='tdt.html'
@@ -30,5 +47,6 @@ $(function(){
 
 $(function() {
     $('.well').matchHeight();
+});
 });
 // });
