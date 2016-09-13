@@ -24,7 +24,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 30px;
+  font-size: 25px;
 }
 body {
   margin:0;
@@ -33,9 +33,9 @@ body {
   margin:0; padding:0; box-sizing:border-box;
 }
 
-.navbar-ex2-collapse {
+.navbar-ex1-collapse {
   float: right;
-  font-size: 22px;
+  font-size: 16px;
 }
 #contact a {
   font-size: 30px;
@@ -47,6 +47,8 @@ background-color: grey;
 }
 #contact {
 background-color: grey;
+/*margin-top: 2%;*/
+padding-top: 5%;
 }
 #page-top {
   margin-top: 5%;
