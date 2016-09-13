@@ -1,3 +1,7 @@
+// $(document).ready(function () {
+//     $('.img-responsive').trigger('click');
+//    });
+
 $(function(){
     $('.tdtClass').click(function(){
         window.location='tdt.html'
@@ -19,11 +23,12 @@ $(function(){
     });
 });
 $(function(){
-    $('.permaculture').click(function(){
-        window.location='permaculture.html'
+    $('.artShanty').click(function(){
+        window.location='artshanties.html'
     });
 });
 
 $(function() {
     $('.well').matchHeight();
 });
+// });

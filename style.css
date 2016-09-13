@@ -22,11 +22,10 @@ svg {
   padding-bottom: 0px;
   border: 0 0 0 0;
   display: center;
-
 }
-/*.well{
-  width: 768px;
-}*/
+#about p {
+  font-size: 30px;
+}
 body {
   margin:0;
   padding: 0 0 0 0;
@@ -38,6 +37,31 @@ body {
   float: right;
   font-size: 22px;
 }
+#contact a {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+#about {
+background-color: grey;
+}
+#contact {
+background-color: grey;
+}
+#page-top {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/*.page-scroll a {
+  font-size: 36px;
+  margin-left: 35%;
+}*/
+.page-scroll a {
+  margin-left: -30%;
+  font-size: 40px;
+}
+
+/*portfolio section starts!!!*/
 .portfolio-section .container {
   margin-top: 8%;
   margin-bottom: 8%;
@@ -61,6 +85,7 @@ body {
 }
 .well:before {
     content: attr(data-content);
+    /*content: attr(href);*/
     width: 100%;
     height: 100%;
     z-index: 5;
@@ -79,7 +104,7 @@ body {
     letter-spacing: 1px;
     font-size: 25px;
     text-align: center;
-    padding-top: 49%;
+    padding-top: 55%;
     /*padding: 2px 2px;*/
     width: 100%;
     height:100%;
@@ -88,35 +113,56 @@ body {
 
 }
 .tdt:after {
+
     content: "UX & Web Development";
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 25px;
     text-align: center;
-    padding-top: 49%;
+    padding-top: 55%;
     /*padding: 2px 2px;*/
     width: 100%;
     height:100%;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
-
 }
-.white:after {
+/*.well:after {
+   content: attr(href);
+}*/
+.tdt:after {
+    /*content: "Web Development, UX, & Design";*/
     content: "Web Development, UX, & Design";
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 25px;
     text-align: center;
-    padding-top: 49%;
+    padding-top: 55%;
     /*padding: 2px 2px;*/
     width: 100%;
     height:100%;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
-
 }
+.white:after {
+    /*content: "Web Development, UX, & Design";*/
+    content: "Web Development, UX, & Design";
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 55%;
+    /*padding: 2px 2px;*/
+    width: 100%;
+    height:100%;
+    top: 0; left:0;
+    background:rgba(0,0,0,0.8);
+}
+/*a:after {
+    content: "tdt.html";
+}*/
 .nile:after {
     content: "UX & Web Development";
     color:white;
@@ -124,12 +170,13 @@ body {
     letter-spacing: 1px;
     font-size: 25px;
     text-align: center;
-    padding-top: 49%;
+    padding-top: 55%;
     /*padding: 2px 2px;*/
     width: 100%;
     height:100%;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
+    /*url: url('/bulkCaseStudy.html');*/
 
 }
 .shanty:after {
@@ -139,7 +186,7 @@ body {
     letter-spacing: 1px;
     font-size: 25px;
     text-align: center;
-    padding-top: 49%;
+    padding-top: 55%;
     /*padding: 2px 2px;*/
     width: 100%;
     height:100%;
@@ -153,7 +200,7 @@ body {
     letter-spacing: 1px;
     font-size: 25px;
     text-align: center;
-    padding-top: 49%;
+    padding-top: 55%;
     /*padding: 2px 2px;*/
     width: 100%;
     height:100%;
@@ -167,7 +214,7 @@ body {
     letter-spacing: 1px;
     font-size: 25px;
     text-align: center;
-    padding-top: 49%;
+    padding-top: 55%;
     /*padding: 2px 2px;*/
     width: 100%;
     height:100%;
