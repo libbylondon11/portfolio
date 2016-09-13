@@ -262,17 +262,19 @@ span.glyphicon-plus {
   padding-left: 10%;
 
 }
+
 #case h3 {
   text-align: right;
-
 }
+
+
 #case {
-  margin-right: 8%;
+  margin-right: 6%;
 }
 #demo {
   text-align: justify;
   text-justify: inter-word;
-  margin-right: 8%;
+  margin-right: 6%;
 }
 h2 {
   text-align: center;
