@@ -48,5 +48,7 @@ $(function(){
 $(function() {
     $('.well').matchHeight();
 });
+
+$(".collapse").collapse()
 });
 // });

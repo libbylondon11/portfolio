@@ -235,9 +235,18 @@ padding-top: 5%;
   display: flex;
 }
 /*TDT CASE STUDY!!!!!!!!!!!!!!!!!! */
+span.glyphicon-plus {
+    font-size: 3em;
+    float: right;
+    margin-right: 15%;
+}
+
 .priContainer a {
   display: center;
   margin-left: 46%;
+}
+#demo p {
+  text-align: right;
 }
 
 h2 {
