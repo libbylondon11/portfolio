@@ -10,6 +10,12 @@ a {
 .row {
   display: flex;
 }
+/*body {
+  overflow-x: hidden;
+}*/
+html, body {
+  overflow-x: hidden;
+}
 .container {
   text-align: center;
   color: black;
@@ -53,6 +59,10 @@ padding-top: 5%;
 #page-top {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+#case {
+  margin-top: 12%;
+  margin-bottom: 12%;
 }
 /*.page-scroll a {
   font-size: 36px;
@@ -245,10 +255,25 @@ span.glyphicon-plus {
   display: center;
   margin-left: 46%;
 }
-#demo p {
-  text-align: right;
-}
 
+.row img {
+  height: 300px;
+  display: center;
+  padding-left: 10%;
+
+}
+#case h3 {
+  text-align: right;
+
+}
+#case {
+  margin-right: 8%;
+}
+#demo {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-right: 8%;
+}
 h2 {
   text-align: center;
   color: black;
