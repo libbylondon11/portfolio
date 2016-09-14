@@ -10,12 +10,12 @@ a {
 .row {
   display: flex;
 }
-body {
+/*body {
+  overflow-y: hidden;
+}*/
+html {
   overflow-x: hidden;
 }
-/*html, body {
-  overflow-x: hidden;
-}*/
 .container {
   text-align: center;
   color: black;
