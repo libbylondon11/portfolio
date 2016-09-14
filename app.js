@@ -36,15 +36,13 @@ $(function(){
     });
 });
 
-// $(".collapse").collapse()
-
-
-  // $("#demo").on("hide.bs.collapse", function(){
-  //   $(".btn").html('<span class="glyphicon glyphicon-collapse-down"></span> Close');
-  // });
-  // $("#demo").on("show.bs.collapse", function(){
-  //   $(".btn").html('<span class="glyphicon glyphicon-collapse-up"></span> Open');
-  // });
+$('#demo').hide()
+$(".glyphicon-plus").click( function() {
+    $('#dream').slideToggle('slow');
+    $('#demo').show();
 });
-
+// $(".glyphicon-plus").click(function(){
+//   $("#dream").slideUp('slow', function(){
+//   })
 // });
+});
