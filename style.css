@@ -244,6 +244,10 @@ padding-top: 5%;
   display: flex;
 }
 /*TDT CASE STUDY!!!!!!!!!!!!!!!!!! */
+/*think dream tank page*/
+#tdt  {
+  margin-top: 50%;
+}
 span.glyphicon-plus {
     font-size: 3em;
     float: right;
@@ -260,6 +264,9 @@ span.glyphicon-plus {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#bulkApp {
+  height: 400px;
 }
 
 #case h3 {
@@ -446,6 +453,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
 }
 /*START WHITE BULK POWDER CASE STUDY*/
+
 .bulkContainer {
   grid-column-start: 2;
   grid-column-end: five;
@@ -519,8 +527,4 @@ footer {
   color: black;
   font-family: 'Open Sans', sans-serif;
   display: center;
-}
-/*think dream tank page*/
-#tdt  {
-  margin-top: 50%;
 }

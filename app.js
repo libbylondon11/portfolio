@@ -1,15 +1,15 @@
 $(document).ready(function () {
 
-// $(function(){
-//     $('#test').click(function(){
-//         window.location='tdt.html'
-//     });
-// });
-// $(function(){
-//     $('.tdtClass2').click(function(){
-//         window.location='tdt.html'
-//     });
-// });
+$(function(){
+    $('#test').click(function(){
+        window.location='tdt.html'
+    });
+});
+$(function(){
+    $('.tdtClass2').click(function(){
+        window.location='tdt.html'
+    });
+});
 $(function(){
     $('.tdtClass').click(function(){
         window.location='tdt.html'
@@ -36,13 +36,37 @@ $(function(){
     });
 });
 
+$(function() {
 $('#demo').hide()
+
 $(".glyphicon-plus").click( function() {
     $('#dream').slideToggle('slow');
-    $('#demo').show();
+    $('#demo').slideToggle('slow');
 });
-// $(".glyphicon-plus").click(function(){
-//   $("#dream").slideUp('slow', function(){
-//   })
-// });
+})
+
+$(function() {
+$('#demo').hide()
+
+$(".glyphicon-plus").click( function() {
+    $('#bulkApp').slideToggle('slow');
+    $('#bulkCollapse').slideToggle('slow');
+});
+})
+
+
+ // $('.slide').click(function () {
+ //     if (clicked == true) {
+ //         $("#dream").animate({
+ //             top: '0px'
+ //         }, 2000);
+ //         clicked = false;
+ //     } else {
+ //         $("#dream").animate({
+ //             top: '-100px'
+ //         }, 2000);
+ //         clicked = true;
+ //     }
+ // });​
+
 });
