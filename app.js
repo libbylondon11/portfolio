@@ -46,33 +46,22 @@ $(".glyphicon-plus").click( function() {
       $('#dream2').slideToggle('slow');
       $('#demo').slideToggle('slow');
 
-    // $('#bulk').slideToggle('slow');
-
-
 });
+$('#bulk').hide()
+$('#bulk1').hide()
 
-// $(function() {
-// $('#demo').hide()
-//
-// $(".glyphicon-plus").click( function() {
-//     $('#bulkApp').slideToggle('slow');
-//     $('#bulkCollapse').slideToggle('slow');
-// });
-// })
+$(".glyphicon-plus").click( function() {
+      $('#bulk').slideToggle('slow');
+      $('#bulk1').slideToggle('slow');
+      $('#bulkContent').slideToggle('slow');
+})
 
+$('#north').hide()
+$('#north2').hide()
 
- // $('.slide').click(function () {
- //     if (clicked == true) {
- //         $("#dream").animate({
- //             top: '0px'
- //         }, 2000);
- //         clicked = false;
- //     } else {
- //         $("#dream").animate({
- //             top: '-100px'
- //         }, 2000);
- //         clicked = true;
- //     }
- // });​
-
+$(".glyphicon-plus").click( function() {
+      $('#north').slideToggle('slow');
+      $('#north2').slideToggle('slow');
+      $('#nileContainer').slideToggle('slow');
+})
 });

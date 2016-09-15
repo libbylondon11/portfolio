@@ -4,9 +4,9 @@ h2 {
   color: black;
   font-family: 'Open Sans', sans-serif;
 }
-a {
+/*a {
   display: center;
-}
+}*/
 .row {
   display: flex;
 }
@@ -59,6 +59,7 @@ padding-top: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 #case {
   margin-top: 12%;
   margin-bottom: 12%;
@@ -298,6 +299,22 @@ span.glyphicon-plus {
   margin-right: 3%;
   margin-left: 30%;
 }
+#demo .btn-custom {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  background-color: white;
+  letter-spacing: .8px;
+  white-space: normal;
+}
+#demo .btn-custom:hover {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  background-color: grey;
+  letter-spacing: .8px;
+  white-space: normal;
+}
 h2 {
   text-align: center;
   color: black;
@@ -399,6 +416,31 @@ h2 {
 }
 
 /*NILE CASE STUDY!!!!!!!!!!!!!!!!!!!!!!!s*/
+
+#nileContainer {
+  text-align: right;
+  text-justify: inter-word;
+  margin-right: 3%;
+  margin-left: 30%;
+}
+#north {
+  height: 400px;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+ #north2 {
+   height: 423px;
+   margin-left: 3%;
+   margin-top: 4%;
+   margin-bottom: 5%;
+}
+.wireF img {
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .nileContainer {
   grid-column-start: 2;
   grid-column-end: five;
@@ -466,7 +508,41 @@ h2 {
   font-family: 'Open Sans', sans-serif;
 }
 /*START WHITE BULK POWDER CASE STUDY*/
+#bulk {
+  height: 400px;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 
+}
+ #bulk1 {
+   height: 423px;
+   margin-left: 5%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+#bulkContent {
+  text-align: right;
+  text-justify: inter-word;
+  margin-right: 3%;
+  margin-left: 30%;
+}
+#bulkContent .btn-custom {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  background-color: white;
+  letter-spacing: .8px;
+  white-space: normal;
+}
+#bulkContent .btn-custom:hover {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  background-color: grey;
+  letter-spacing: .8px;
+  white-space: normal;
+}
 .bulkContainer {
   grid-column-start: 2;
   grid-column-end: five;
