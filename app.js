@@ -35,24 +35,30 @@ $(function(){
         window.location='artshanties.html'
     });
 });
-
-$(function() {
-$('#demo').hide()
-
-$(".glyphicon-plus").click( function() {
-    $('#dream').slideToggle('slow');
-    $('#demo').slideToggle('slow');
-});
-})
-
-$(function() {
-$('#demo').hide()
+//
+$('#dream').hide()
+$('#dream1').hide()
+$('#dream2').hide()
 
 $(".glyphicon-plus").click( function() {
-    $('#bulkApp').slideToggle('slow');
-    $('#bulkCollapse').slideToggle('slow');
+      $('#dream').slideToggle('slow');
+      $('#dream1').slideToggle('slow');
+      $('#dream2').slideToggle('slow');
+      $('#demo').slideToggle('slow');
+
+    // $('#bulk').slideToggle('slow');
+
+
 });
-})
+
+// $(function() {
+// $('#demo').hide()
+//
+// $(".glyphicon-plus").click( function() {
+//     $('#bulkApp').slideToggle('slow');
+//     $('#bulkCollapse').slideToggle('slow');
+// });
+// })
 
 
  // $('.slide').click(function () {

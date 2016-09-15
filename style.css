@@ -258,16 +258,32 @@ span.glyphicon-plus {
   display: center;
   margin-left: 46%;
 }
-
-#case img {
+#dream {
   height: 300px;
+  margin-top: 2%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#bulkApp {
+#dream1 {
   height: 400px;
+  margin-left: 24%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
 }
+ #dream2 {
+   height: 400px;
+   margin-left: 5%;
+   margin-top: 3%;
+   margin-bottom: 5%;
+ }
+/*#case img {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
 
 #case h3 {
   text-align: right;
@@ -375,8 +391,6 @@ h2 {
 .priContainer .row {
   margin-left: 18%;
 }
-
-
 .priContainer h1 {
   color: black;
   text-align: center;
@@ -444,7 +458,6 @@ h2 {
 .nileContainer .row {
   margin-left: 18%;
 }
-
 
 .nileContainer h1 {
   color: black;
