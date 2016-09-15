@@ -35,6 +35,11 @@ $(function(){
         window.location='artshanties.html'
     });
 });
+$(function(){
+    $('.dye').click(function(){
+        window.location='bornanddyed.html'
+    });
+});
 //
 $('#dream').hide()
 $('#dream1').hide()
@@ -65,4 +70,12 @@ $(".glyphicon-plus").click( function() {
       $('#nileContainer').slideToggle('slow');
 })
 
+$('#pri').hide()
+$('#pri1').hide()
+
+$(".glyphicon-plus").click( function() {
+      $('#pri').slideToggle('slow');
+      $('#pri1').slideToggle('slow');
+      $('#permacultureContent').slideToggle('slow');
+})
 });
