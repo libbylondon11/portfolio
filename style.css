@@ -299,6 +299,8 @@ span.glyphicon-plus {
   margin-right: 3%;
   margin-left: 30%;
 }
+
+
 #demo .btn-custom {
   font-family: 'Open Sans', sans-serif;
   color: black;
@@ -441,72 +443,10 @@ h2 {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.nileContainer {
-  grid-column-start: 2;
-  grid-column-end: five;
-  grid-row-start: row1-start
-  grid-row-end: 3
-}
-.nileContainer .btn-custom {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-size: 14px;
-  border-color: black;
-  background-color: white;
-  letter-spacing: .8px;
-  white-space: normal;
-}
-.nileContainer .btn-custom:hover {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-size: 14px;
-  border-color: black;
-  background-color: grey;
-  letter-spacing: .8px;
-  white-space: normal;
-}
-.nileContainer a {
-  display: center;
-  margin-left: 46%;
 
-}
 
-.nileContainer p {
-  grid-column-start: 2;
-  grid-column-end: five;
-  grid-row-start: row1-start
-  grid-row-end: 3;
-  background-color: white;
-  margin-left: 15%;
-  margin-right: 15%;
-}
 
-.nileContainer img {
-  height: 400px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-left: 33%;
 
-}
-.nileContainer .row img {
-  height: 380px;
-  display: inline-block;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-right: 3%;
-  margin-left: 2%;
-  /*margin-left: 35%;*/
-}
-.nileContainer .row {
-  margin-left: 18%;
-}
-
-.nileContainer h1 {
-  color: black;
-  text-align: center;
-  font-size: 65px;
-  font-family: 'Open Sans', sans-serif;
-}
 /*START WHITE BULK POWDER CASE STUDY*/
 #bulk {
   height: 400px;
@@ -610,7 +550,28 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   margin-top: 10%;
 }
+/*ART SHANTY PROJECTS!!!!!!!!!!!!!*/
+.images img {
+  height: 400px;
+}
+#case .row-eq-height {
+  margin-left: 5%;
+  margin-right:5%;
+}
+#art {
+  text-align: center;
+  text-justify: inter-word;
+  margin-right: 15%;
+  margin-left: 15%;
 
+}
+#art img {
+  height: 35px;
+  margin-top: 20%;
+}
+#art h3 {
+  text-align: left;
+}
 footer {
   text-align: center;
   color: black;

@@ -64,4 +64,5 @@ $(".glyphicon-plus").click( function() {
       $('#north2').slideToggle('slow');
       $('#nileContainer').slideToggle('slow');
 })
+
 });
