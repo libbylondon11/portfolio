@@ -78,4 +78,13 @@ $(".glyphicon-plus").click( function() {
       $('#pri1').slideToggle('slow');
       $('#permacultureContent').slideToggle('slow');
 })
+
+$('#dyed1').hide()
+$('#dyed2').hide()
+
+$(".glyphicon-plus").click( function() {
+      $('#dyed1').slideToggle('slow');
+      $('#dyed2').slideToggle('slow');
+      $('#dyed').slideToggle('slow');
+})
 });
