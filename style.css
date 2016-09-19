@@ -31,7 +31,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 25px;
+  font-size: 30px;
   display: block;
   margin-left: 15%;
   margin-right: 15%;
@@ -53,11 +53,11 @@ body {
 }
 
 #about {
-background-color: darkslategrey;
+background-color: LIGHTSLATEGREY;
 }
 #contact {
-background-color: grey;
-padding-top: 5%;
+background-color: LIGHTSLATEGREY;
+padding-top: 8%;
 }
 #page-top {
   margin-top: 5%;
