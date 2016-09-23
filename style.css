@@ -4,15 +4,11 @@ h2 {
   color: black;
   font-family: 'Open Sans', sans-serif;
 }
-/*a {
-  display: center;
-}*/
+
 .row {
   display: flex;
 }
-/*body {
-  overflow-y: hidden;
-}*/
+
 html {
   overflow-x: hidden;
 }
