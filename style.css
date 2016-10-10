@@ -83,7 +83,7 @@ padding-top: 8%;
       opacity: 0;
       transition: all 1.0s;
       -webkit-transition: all 1.0s;
-  }
+}
 .well {
     position:relative;
     border:0.1px solid #f8f8f8;
@@ -93,7 +93,6 @@ padding-top: 8%;
     padding-right: 0;
     margin-bottom: 0;
     border: 0;
-
 }
 .well:before {
     content: attr(data-content);
@@ -122,10 +121,8 @@ padding-top: 8%;
     height:100%;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
-
 }
 .tdt:after {
-
     content: "UX & Web Development";
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -139,9 +136,7 @@ padding-top: 8%;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
 }
-/*.well:after {
-   content: attr(href);
-}*/
+
 .tdt:after {
     /*content: "Web Development, UX, & Design";*/
     content: "Web Development, UX, & Design";
@@ -158,7 +153,6 @@ padding-top: 8%;
     background:rgba(0,0,0,0.8);
 }
 .white:after {
-    /*content: "Web Development, UX, & Design";*/
     content: "Web Development, UX, & Design";
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -172,9 +166,7 @@ padding-top: 8%;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
 }
-/*a:after {
-    content: "tdt.html";
-}*/
+
 .nile:after {
     content: "UX & Web Development";
     color:white;
@@ -188,8 +180,6 @@ padding-top: 8%;
     height:100%;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
-    /*url: url('/bulkCaseStudy.html');*/
-
 }
 .shanty:after {
     content: "Place-based Design";
@@ -236,9 +226,6 @@ padding-top: 8%;
 .well:hover:after, .well:hover:before {
       opacity: 1;
 }
-/*.well img {
-  width: 100%;
-}*/
 
 .well img {
   width: 100%;
@@ -300,7 +287,6 @@ span.glyphicon-plus {
   margin-right: 3%;
   margin-left: 30%;
 }
-
 
 #demo .btn-custom {
   font-family: 'Open Sans', sans-serif;
@@ -380,9 +366,7 @@ h2 {
 }
 .priContainer .btn-custom {
   text-align: center;
-
 }
-
 .priContainer p {
   grid-column-start: 2;
   grid-column-end: five;
@@ -397,7 +381,6 @@ h2 {
   height: 300px;
   padding-top: 2px;
   padding-bottom: 2px;
-
 }
 .priContainer.row img {
   height: 380px;
@@ -421,7 +404,7 @@ h2 {
 /*NILE CASE STUDY!!!!!!!!!!!!!!!!!!!!!!!s*/
 
 #nileContainer {
-    margin-top: 5%;
+  margin-top: 5%;
   text-align: right;
   text-justify: inter-word;
   margin-right: 3%;
