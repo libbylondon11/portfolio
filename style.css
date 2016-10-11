@@ -429,16 +429,17 @@ h2 {
   margin-bottom: 5%;
 }
 
-
-
-
 /*START WHITE BULK POWDER CASE STUDY*/
+#case img {
+  height: 300px;
+  margin-bottom: 2px;
+  margin-left: 300px;
+}
 #bulk {
   height: 400px;
   margin-left: 30%;
   margin-top: 5%;
   margin-bottom: 5%;
-
 }
  #bulk1 {
    height: 423px;
@@ -447,7 +448,7 @@ h2 {
    margin-bottom: 5%;
 }
 #bulkContent {
-    margin-top: 5%;
+  /*margin-top: 5%;*/
   text-align: right;
   text-justify: inter-word;
   margin-right: 3%;
@@ -496,9 +497,7 @@ h2 {
 .bulkContainer a {
   display: center;
   margin-left: 46%;
-
 }
-
 .bulkContainer p {
   grid-column-start: 2;
   grid-column-end: five;
@@ -514,7 +513,6 @@ h2 {
   padding-top: 2px;
   padding-bottom: 2px;
   margin-left: 33%;
-
 }
 .bulkContainer .row img {
   height: 380px;
@@ -561,7 +559,6 @@ h2 {
 }
 
 /*PRI SECTION!!!!!!!!!!*/
-
 
 #permacultureContent {
   text-align: right;
