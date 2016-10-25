@@ -29,10 +29,11 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 2vw;
+  font-size: 4.0vw;
   display: block;
-  margin-left: 15%;
-  margin-right: 15%;
+  display: center;
+  /*margin-left: 15%;
+  margin-right: 15%;*/
   font-family: 'Open Sans', sans-serif;
 }
 body {
@@ -56,7 +57,7 @@ body {
    font-family: 'GrandHotelRegular';
    font-weight: normal;
    font-style: normal;
-   font-size: 7.0vw;
+   font-size: 30px;
 }
 
 #about {
@@ -71,6 +72,9 @@ height: 50px;*/
   display: center;
   margin-left: 20px;
   margin-right: 20px;
+}
+#libby img {
+  display: center;
 }
 #contact {
 /*background-color: lightgrey;*/
