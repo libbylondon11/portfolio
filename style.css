@@ -607,14 +607,14 @@ h2 {
 }
 #dyed1 {
   height: 300px;
-  margin-left: 30%;
+  margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
 
 }
  #dyed2 {
-   height: 423px;
-   margin-left: 5%;
+   height: 300px;
+   margin-left: 30%;
    margin-top: 4%;
    margin-bottom: 5%;
 }
