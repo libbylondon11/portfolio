@@ -30,7 +30,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 45px;
+  font-size: 2vw;
   display: block;
   margin-left: 15%;
   margin-right: 15%;
@@ -44,7 +44,8 @@ body {
 
 .navbar-ex1-collapse {
   float: right;
-  font-size: 22px;
+  font-size: 15px;
+  font-family: 'GrandHotelRegular';
 }
 #contact a {
   font-size: 30px;
@@ -55,7 +56,7 @@ body {
    font-family: 'GrandHotelRegular';
    font-weight: normal;
    font-style: normal;
-   size: 5vw;
+   font-size: 5vw;
 }
 
 #about {
@@ -64,7 +65,7 @@ height: 50px;*/
 /*background-size: cover;*/
 }
 #libby {
-  height: 50px;
+  height: 100px;
 }
 #contact {
 /*background-color: lightgrey;*/
