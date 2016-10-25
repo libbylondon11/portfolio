@@ -29,7 +29,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 2.0vw;
+  font-size: 4.0vw;
   display: block;
   display: center;
   /*margin-left: 15%;
@@ -49,7 +49,7 @@ body {
 
 }
 #contact a {
-  font-size: 40px;
+  font-size: 10.0vw;
   letter-spacing: 10px;
   color: black;
 }
