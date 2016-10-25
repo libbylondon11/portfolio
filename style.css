@@ -12,7 +12,9 @@ h2 {
 html {
   overflow-x: hidden;
 }
-
+@media (max-width: @screen-xs) {
+    container{font-size: 10px;}
+}
 .container {
   text-align: center;
   color: black;
