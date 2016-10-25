@@ -15,7 +15,7 @@ html {
 
 .container {
   text-align: center;
-  color: black;
+  color: white;
   font-family: 'Open Sans', sans-serif;
 }
 svg {
@@ -49,10 +49,10 @@ body {
 }
 
 #about {
-background: url('images/libbysanjuan.jpg');
+background: url('images/libbysanjuanpines.jpg');
 }
 #contact {
-background-color: LIGHTSALMON;
+background-color: darkgreen;
 padding-top: 8%;
 }
 #page-top {
