@@ -15,7 +15,7 @@ html {
 
 .container {
   text-align: center;
-  color: black;
+  color: white;
   font-family: 'Open Sans', sans-serif;
 }
 svg {
@@ -27,7 +27,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 35px;
+  font-size: 45px;
   display: block;
   margin-left: 15%;
   margin-right: 15%;
@@ -56,6 +56,7 @@ background-size: cover;
 #contact {
 background-color: lightgrey;
 padding-top: 8%;
+height: 100px;
 }
 #page-top {
   margin-top: 5%;
