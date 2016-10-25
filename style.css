@@ -15,7 +15,7 @@ html {
 
 .container {
   text-align: center;
-  color: white;
+  color: black;
   font-family: 'Open Sans', sans-serif;
 }
 svg {
@@ -50,7 +50,7 @@ body {
 }
 
 #about {
-background: url('images/libbysanjuanpines80.jpg') repeat center center fixed;
+background: url('images/libbysanjuanpines74.jpg') repeat center center fixed;
 background-size: cover;
 }
 #contact {
