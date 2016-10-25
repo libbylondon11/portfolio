@@ -49,7 +49,7 @@ body {
 }
 
 #about {
-background-color: LIGHTSALMON;
+background: url('libbyolympic.jpg') repeat center center fixed;
 }
 #contact {
 background-color: LIGHTSALMON;
