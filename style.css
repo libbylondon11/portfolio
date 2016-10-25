@@ -45,7 +45,7 @@ body {
 .navbar-ex1-collapse {
   float: right;
   font-size: 15px;
-  font-family: 'GrandHotelRegular';
+
 }
 #contact a {
   font-size: 30px;
@@ -56,7 +56,7 @@ body {
    font-family: 'GrandHotelRegular';
    font-weight: normal;
    font-style: normal;
-   font-size: 5vw;
+   font-size: 10vw;
 }
 
 #about {
@@ -65,7 +65,9 @@ height: 50px;*/
 /*background-size: cover;*/
 }
 #libby {
-  height: 100px;
+  height: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 #contact {
 /*background-color: lightgrey;*/
