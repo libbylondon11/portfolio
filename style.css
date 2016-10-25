@@ -53,11 +53,11 @@ body {
 }
 
 #about {
-background: url('images/libbysanjuanpines74.jpg') repeat center center fixed;
+background: url('images/libbypines.png') repeat center center fixed;
 background-size: cover;
 }
 #contact {
-background-color: lightgrey;
+/*background-color: lightgrey;*/
 padding-top: 8%;
 
 }
