@@ -51,10 +51,14 @@ body {
   letter-spacing: 10px;
   color: black;
 }
+.container h1 {
+  font-family: 'Grand Hotel', cursive;
+}
 
 #about {
-background: url('images/libbypines.png') repeat center center fixed;
-background-size: cover;
+background: url('images/LibbyLondon.png');
+height: 100px;
+/*background-size: cover;*/
 }
 #contact {
 /*background-color: lightgrey;*/
