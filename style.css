@@ -15,10 +15,10 @@ html {
 /*@media (max-width: @screen-xs) {
     container{font-size: 10px;}
 }*/
-.container {
+.container p {
   text-align: center;
   color: black;
-  font-size: 1vw;
+  font-size: 2vw;
   font-family: 'Open Sans', sans-serif;
 }
 svg {
@@ -52,13 +52,19 @@ body {
   color: black;
 }
 .container h1 {
-  font-family: 'Grand Hotel', cursive;
+   font-family: 'GrandHotelRegular';
+   font-weight: normal;
+   font-style: normal;
+   size: 5vw;
 }
 
 #about {
-background: url('images/LibbyLondon.png');
-height: 100px;
+/*background: url('images/LibbyLondon.png');
+height: 50px;*/
 /*background-size: cover;*/
+}
+#libby {
+  height: 50px;
 }
 #contact {
 /*background-color: lightgrey;*/
