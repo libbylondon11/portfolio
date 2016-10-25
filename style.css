@@ -46,14 +46,15 @@ body {
 #contact a {
   font-size: 30px;
   letter-spacing: 10px;
+  color: black;
 }
 
 #about {
-background: url('images/libbysanjuanpines.jpg') repeat center center fixed;
+background: url('images/libbysanjuanpinestransparent.jpg') repeat center center fixed;
 background-size: cover;
 }
 #contact {
-background-color: darkgreen;
+background-color: lightgrey;
 padding-top: 8%;
 }
 #page-top {
