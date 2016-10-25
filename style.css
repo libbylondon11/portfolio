@@ -41,7 +41,7 @@ body {
 
 .navbar-ex1-collapse {
   float: right;
-  font-size: 16px;
+  font-size: 30px;
 }
 #contact a {
   font-size: 30px;
@@ -73,7 +73,7 @@ height: 100px;
 }*/
 .page-scroll a {
   margin-left: -30%;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /*portfolio section starts!!!*/
