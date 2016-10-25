@@ -29,9 +29,10 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 16px;
+  font-size: 18px;
   display: block;
   display: center;
+  letter-spacing: 1px;
   /*margin-left: 15%;
   margin-right: 15%;*/
   font-family: 'Open Sans', sans-serif;
