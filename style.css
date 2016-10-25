@@ -30,7 +30,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 2vw;
+  size: 2vw;
   display: block;
   margin-left: 15%;
   margin-right: 15%;
@@ -52,11 +52,11 @@ body {
   letter-spacing: 10px;
   color: black;
 }
-.about h1 {
+.container h1 {
    font-family: 'GrandHotelRegular';
    font-weight: normal;
    font-style: normal;
-   font-size: 10vw;
+   size: 10vw;
 }
 
 #about {
