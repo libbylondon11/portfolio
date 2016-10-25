@@ -29,7 +29,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 4.0vw;
+  font-size: 12px;
   display: block;
   display: center;
   /*margin-left: 15%;
@@ -57,7 +57,7 @@ body {
    font-family: 'GrandHotelRegular';
    font-weight: normal;
    font-style: normal;
-   font-size: 45px;
+   font-size: 50px;
 }
 
 #about {
