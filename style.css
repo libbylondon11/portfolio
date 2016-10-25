@@ -16,6 +16,7 @@ html {
 .container {
   text-align: center;
   color: black;
+  font-size: 3.2vw;
   font-family: 'Open Sans', sans-serif;
 }
 svg {
@@ -56,7 +57,7 @@ background-size: cover;
 #contact {
 background-color: lightgrey;
 padding-top: 8%;
-height: 100px;
+
 }
 #page-top {
   margin-top: 5%;
