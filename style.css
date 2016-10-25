@@ -52,7 +52,7 @@ body {
   letter-spacing: 10px;
   color: black;
 }
-.container h1 {
+.about h1 {
    font-family: 'GrandHotelRegular';
    font-weight: normal;
    font-style: normal;
@@ -65,9 +65,10 @@ height: 50px;*/
 /*background-size: cover;*/
 }
 #libby {
-  height: 200px;
+  height: 230px;
   padding-top: 5px;
   padding-bottom: 5px;
+  display: center;
 }
 #contact {
 /*background-color: lightgrey;*/
