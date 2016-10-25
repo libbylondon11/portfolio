@@ -15,7 +15,7 @@ html {
 
 .container {
   text-align: center;
-  color: white;
+  color: black;
   font-family: 'Open Sans', sans-serif;
 }
 svg {
@@ -27,7 +27,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 30px;
+  font-size: 35px;
   display: block;
   margin-left: 15%;
   margin-right: 15%;
@@ -605,7 +605,7 @@ h2 {
   margin-right: 10%;
 }
 #dyed1 {
-  height: 423px;
+  height: 300px;
   margin-left: 30%;
   margin-top: 5%;
   margin-bottom: 5%;
