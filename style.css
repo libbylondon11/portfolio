@@ -15,11 +15,11 @@ html {
 /*@media (max-width: @screen-xs) {
     container{font-size: 10px;}
 }*/
-.container p {
+/*.container p {
   text-align: center;
   color: black;
   font-family: 'Open Sans', sans-serif;
-}
+}*/
 svg {
 
   display: block;
@@ -29,7 +29,7 @@ svg {
   display: center;
 }
 #about p {
-  font-size: 18px;
+  font-size: 16px;
   display: block;
   display: center;
   letter-spacing: .75px;
