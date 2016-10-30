@@ -35,6 +35,13 @@ svg {
   font-family: 'Open Sans', sans-serif;
   /*letter-spacing: .5px;*/
 }
+#home p {
+  display: block;
+  display: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  /*letter-spacing: .5px;*/
+}
 body {
   margin:0;
   padding: 0 0 0 0;
