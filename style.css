@@ -75,7 +75,7 @@ height: 50px;*/
 /*background-size: cover;*/
 
 }
-background: linear-gradient(358deg, #b4c4da, #163989);
+#about: linear-gradient(358deg, #b4c4da, #163989);
 background-size: 400% 400%;
 
 -webkit-animation: AnimationName 5s ease infinite;
