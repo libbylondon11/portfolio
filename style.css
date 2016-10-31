@@ -1,3 +1,26 @@
+#about {
+background: linear-gradient(358deg, #b4c4da, #163989);
+background-size: 400% 400%;
+
+-webkit-animation: Gradient 30s ease infinite;
+-moz-animation: Gradient 30s ease infinite;
+animation: Gradient 30s ease infinite;
+}
+@-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 h2 {
   text-align: center;
@@ -76,28 +99,6 @@ height: 50px;*/
 
 }
 
-background: linear-gradient(358deg, #b4c4da, #163989);
-background-size: 400% 400%;
-
--webkit-animation: #about 30s ease infinite;
--moz-animation: #about 30s ease infinite;
-animation: #about 30s ease infinite;
-
-@-webkit-keyframes #about {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes #about {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes #about {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
 
 #libby {
   height: 230px;
