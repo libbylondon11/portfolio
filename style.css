@@ -70,8 +70,10 @@ body {
 
 #about {
 /*background: url('images/LibbyLondon.png');
+
 height: 50px;*/
 /*background-size: cover;*/
+background-color: beige;;
 }
 #libby {
   height: 230px;
