@@ -7,8 +7,8 @@ html, body {
     padding: 0;
 }
 #about {
-background: linear-gradient(270deg, #18f0b8, #18a2f0, #db5640);
-background-size: 600% 600%;
+background: linear-gradient(358deg, #b4c4da, #163989);
+background-size: 400% 400%;
 -webkit-animation: Gradient 60s ease infinite;
 -moz-animation: Gradient 60s ease infinite;
 animation: Gradient 60s ease infinite;
@@ -28,7 +28,6 @@ animation: Gradient 60s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-
 
 h2 {
   text-align: center;
