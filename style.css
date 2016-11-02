@@ -6,8 +6,6 @@ html, body {
     padding: 0;
 }
 
-
-
 #about {
 background: linear-gradient(0deg, #01243D, #024473, #246B9E);
 animation-name: cf3FadeInOut;
@@ -38,11 +36,6 @@ animation-iteration-count: infinite;
 animation-duration: 10s;
 animation-direction: alternate;
 }*/
-
-
-
-
-
 
 
 /*#about {
@@ -110,9 +103,13 @@ svg {
 #home p {
   display: block;
   display: center;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   /*letter-spacing: .5px;*/
+}
+#home img {
+  height: 200px;
+  margin-left: 20px;
 }
 body {
   margin:0;
@@ -126,6 +123,7 @@ body {
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: .5px;
+  color: black;
 }
 #contact a {
   font-size: 6.0vw;
@@ -148,15 +146,14 @@ height: 50px;*/
 
 }
 
-
-#libby {
-  height: 230px;
+/*#libby {
+  height: 200px;
   padding-top: 5px;
   padding-bottom: 5px;
   display: center;
   margin-left: 20px;
   margin-right: 20px;
-}
+}*/
 #libby img {
   display: center;
 }
