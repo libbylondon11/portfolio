@@ -7,12 +7,7 @@ html, body {
 }
 
 
-#about {
-position:relative;
-height:281px;
-width:450px;
-margin:0 auto;
-}
+
 #about {
 background: linear-gradient(0deg, #01243D, #024473, #246B9E);
 animation-name: cf3FadeInOut;
