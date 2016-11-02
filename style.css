@@ -5,9 +5,12 @@ html, body {
     margin: 0;
     padding: 0;
 }
-html {
-  width: auto !important;
-  overflow-x: hidden !important;
+@media handheld and (max-width: 481px) and (orientation: portrait) {
+  html,body{width:100%;overflow-x:hidden;}
+}
+
+@media handheld and (max-width: 380px) and (orientation: portrait) {
+  html,body{width:100%;overflow-x:hidden;}
 }
 #about {
 background: linear-gradient(0deg, #01243D, #024473, #246B9E);
@@ -17,7 +20,6 @@ animation-iteration-count: infinite;
 animation-duration: 10s;
 animation-direction: alternate;
 }
-
 /*@keyframes cf3FadeInOut {
   0% {
   opacity:1;
@@ -149,7 +151,7 @@ body {
   letter-spacing: 10px;
   color: black;
 }
-.container h1 {
+.container-fluid h1 {
    font-family: 'GrandHotelRegular';
    font-weight: normal;
    font-style: normal;
@@ -200,7 +202,7 @@ padding-top: 8%;
 }
 
 /*portfolio section starts!!!*/
-.portfolio-section .container {
+.portfolio-section .container-fluid {
   margin-top: 8%;
   margin-bottom: 8%;
 }
