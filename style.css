@@ -5,7 +5,10 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
 #about {
 background: linear-gradient(0deg, #01243D, #024473, #246B9E);
 animation-name: cf3FadeInOut;
