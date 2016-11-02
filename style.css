@@ -89,6 +89,9 @@ svg {
   border: 0 0 0 0;
   display: center;
 }
+.navbar-fixed-top {
+  background-color: black;
+}
 #about p {
   display: block;
   display: center;
@@ -110,6 +113,8 @@ svg {
 #home img {
   height: 200px;
   margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 body {
   margin:0;
@@ -123,7 +128,7 @@ body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: .5px;
-  background-color: black;
+
 }
 #contact a {
   font-size: 6.0vw;
