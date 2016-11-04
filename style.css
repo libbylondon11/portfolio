@@ -109,11 +109,11 @@ svg {
   display: center;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: black;
   /*letter-spacing: .5px;*/
 }
 #about h3 {
-  color: white;
+  color: black;
 }
 #home {
   margin-top: 5px;
