@@ -704,20 +704,21 @@ h2 {
 #permaculture {
   margin-top: 10%;
   margin-bottom: 12%;
+	margin-left: 10%;
 }
 #permaculture h3 {
   text-align: right;
   margin-right: 10%;
 }
 #pri {
-  height: 423px;
+  height: 400px;
   /*margin-left: 30%;
   margin-top: 5%;
   margin-bottom: 5%;*/
 
 }
  #pri1 {
-   height: 423px;
+   height: 400px;
    /*margin-left: 5%;
    margin-top: 4%;
    margin-bottom: 5%;*/
