@@ -13,8 +13,8 @@ html, body {
   html,body{width:100%;overflow-x:hidden;}
 }
 #about {
-/*background: linear-gradient(0deg, #01243D, #024473, #246B9E);*/
-background: pink;
+background: linear-gradient(0deg, #01243D, #024473, #246B9E);
+/*background: pink;*/
 animation-name: cf3FadeInOut;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
