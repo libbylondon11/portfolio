@@ -706,7 +706,7 @@ h2 {
 #permaculture {
   margin-top: 10%;
   margin-bottom: 12%;
-	/*margin-left: 10%;*/
+	margin-left: 10%;
 	font-family: 'Open Sans', sans-serif;
 }
 #permaculture h2 {
@@ -720,6 +720,7 @@ h2 {
 #permaculture img {
 	height: 500px;
 	margin-right: 2%;
+	float: right;
 }
 /*#pri {
   height: 400px;
