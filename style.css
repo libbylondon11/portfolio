@@ -218,6 +218,7 @@ padding-top: 8%;
 #portfolio h2 {
 font-family: 'GrandHotelRegular';
 display: center;
+size: 60px;
 }
 .well:after, .well:before {
       position: absolute;
