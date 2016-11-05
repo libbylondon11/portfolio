@@ -709,7 +709,7 @@ h2 {
 	margin-left: 10%;
 	font-family: 'Open Sans', sans-serif;
 }
-#permaculture h1 {
+#permaculture h2 {
 	  font-family: 'GrandHotelRegular';
 		font-size: 25px;
 }
@@ -718,8 +718,8 @@ h2 {
   margin-right: 10%;
 }
 #permaculture img {
-	height: 400px;
-	margin-right: 10%;
+	height: 500px;
+	margin-right: 2%;
 }
 /*#pri {
   height: 400px;
