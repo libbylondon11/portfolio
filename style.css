@@ -215,6 +215,10 @@ padding-top: 8%;
   margin-top: 8%;
   margin-bottom: 8%;
 }
+#portfolio h2 {
+font-family: 'GrandHotelRegular';
+display: center;
+}
 .well:after, .well:before {
       position: absolute;
       opacity: 0;
