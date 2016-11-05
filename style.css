@@ -70,7 +70,7 @@ animation: Gradient 30s ease infinite;
 }
 h2 {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
 }
 
 .row {
@@ -706,7 +706,7 @@ h2 {
 #permaculture {
   margin-top: 10%;
   margin-bottom: 12%;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 	font-family: 'Open Sans', sans-serif;
 }
 #permaculture h2 {
@@ -714,7 +714,7 @@ h2 {
 		font-size: 25px;
 }
 #permaculture h3 {
-  text-align: right;
+  text-align: left;
   margin-right: 10%;
 }
 #permaculture img {
