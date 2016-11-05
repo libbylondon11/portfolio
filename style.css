@@ -114,6 +114,8 @@ svg {
 }
 #about h3 {
   color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
 #home {
   margin-top: 5px;
