@@ -707,10 +707,15 @@ h2 {
   margin-top: 10%;
   margin-bottom: 12%;
 	margin-left: 10%;
+	font-family: 'Open Sans', sans-serif;
+
 }
 #permaculture h3 {
   text-align: right;
   margin-right: 10%;
+}
+#permaculture img {
+	height: 200px;
 }
 #pri {
   height: 400px;
