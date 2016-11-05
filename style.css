@@ -319,7 +319,7 @@ padding-top: 8%;
     background:rgba(0,0,0,0.8);
 }
 .shanty:after {
-    content: "Place-based Design";
+    content: "UX/UI";
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
@@ -718,8 +718,9 @@ h2 {
   margin-right: 10%;
 }
 #permaculture img {
-	height: 300px;
+	height: 400px;
 	float: right;
+	margin-right: 10%;
 }
 #pri {
   height: 400px;
