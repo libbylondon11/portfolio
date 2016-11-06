@@ -372,14 +372,15 @@ font-size: 72px;
 
 .tdtClass img {
 	height: 310px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 .bulk img {
 	height: 310px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 .north img {
 	height: 310px;
+	width: 300px;
 }
 .permaculture img {
 	height: 310px;
@@ -799,7 +800,7 @@ h2 {
 }
 #cppe .container img {
 	height: 500px;
-	margin-right: 25px;
+	margin-left: 25px;
 }
 /*#pri {
   height: 400px;
