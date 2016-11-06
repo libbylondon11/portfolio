@@ -370,9 +370,12 @@ font-size: 72px;
 	width: 280px;
 }
 
-/*.tdtClass img {
-	height: 400px;
-}*/
+.tdtClass img {
+	height: 310px;
+}
+.bulk img {
+	height: 310
+}
 /*.tdtClass img {
 	height: 300px;
 }*/
