@@ -362,7 +362,6 @@ font-size: 72px;
 .col-md-4 {
   /*width: 100%;
   display: flex;*/
-
 	height: 300px;
 }
 
@@ -722,6 +721,28 @@ h2 {
   margin-right: 10%;
 }
 #permaculture img {
+	height: 500px;
+	margin-right: 5%;
+	float: right;
+}
+#ny img {
+	height: 300px;
+}
+#ny {
+  margin-top: 10%;
+  margin-bottom: 12%;
+	margin-left: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+#ny h2 {
+	  font-family: 'GrandHotelRegular';
+		font-size: 40px;
+}
+#ny h3 {
+  text-align: left;
+  margin-right: 10%;
+}
+#ny img {
 	height: 500px;
 	margin-right: 5%;
 	float: right;
