@@ -12,6 +12,9 @@ html, body {
 @media handheld and (max-width: 380px) and (orientation: portrait) {
   html,body{width:100%;overflow-x:hidden;}
 }
+.navbar-brand {
+	  font-family: 'GrandHotelRegular';
+}
 #about {
 /*background: linear-gradient(0deg, #01243D, #024473, #246B9E);*/
 /*background: pink;*/
