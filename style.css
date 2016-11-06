@@ -363,8 +363,9 @@ font-size: 72px;
   width: 100%;
   display: flex;
 	height: 300px;
-	
+
 }
+
 
 /*.tdtClass img {
 	height: 400px;
@@ -728,6 +729,9 @@ h2 {
 }
 #ny img {
 	height: 300px;
+}
+#ny .col-md-5 img {
+	height: 100px;
 }
 #ny {
   margin-top: 10%;
