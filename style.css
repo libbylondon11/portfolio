@@ -14,7 +14,8 @@ html, body {
 }
 .top {
 	  font-family: 'GrandHotelRegular';
-		size: 30px;
+		font-size: 30px;
+		color: blue;
 }
 #about {
 /*background: linear-gradient(0deg, #01243D, #024473, #246B9E);*/
@@ -224,7 +225,7 @@ font-family: 'GrandHotelRegular';
 display: center;
 font-size: 72px;
 }
-.jumbotron img {
+.container img {
 	height: 300px;
 	display: center;
 }
