@@ -359,15 +359,15 @@ font-size: 72px;
       opacity: 1;
 }
 
-#portfolio img {
+/*#portfolio img {
   /*width: 100%;
   display: flex;*/
 	height: 300px;
-}
+}*/
 
-.tdtClass img {
+/*.tdtClass img {
 	height: 400px;
-}
+}*/
 /*.tdtClass img {
 	height: 300px;
 }*/
