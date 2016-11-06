@@ -206,10 +206,10 @@ font-family: 'GrandHotelRegular';
 display: center;
 font-size: 72px;
 }
-/*.container-bottom img {
+.container-bottom img {
 	height: 300px;
-	margin-right: 50px;
-}*/
+	margin-right: 30px;
+}
 .well:after, .well:before {
       position: absolute;
       opacity: 0;
@@ -364,15 +364,7 @@ font-size: 72px;
   display: flex;*/
 	height: 300px;
 }
-.tdtClass img {
-	height: 600px;
-}
-.bulk img {
-	height: 500px;
-}
-.north img {
-	height: 400px;
-}
+
 /*.tdtClass img {
 	height: 300px;
 }*/
