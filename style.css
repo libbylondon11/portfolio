@@ -14,8 +14,8 @@ html, body {
 }
 .page-scroll .pull-left {
 	  font-family: 'GrandHotelRegular';
-		font-size: 30px;
-		color: blue;
+		font-size: 35px;
+		margin-left: 5px;
 }
 #about {
 /*background: linear-gradient(0deg, #01243D, #024473, #246B9E);*/
@@ -227,7 +227,7 @@ font-size: 72px;
 }
 .container-bottom img {
 	height: 300px;
-	margin-left: 30px;
+	margin-left: 20px;
 }
 .well:after, .well:before {
       position: absolute;
@@ -378,9 +378,12 @@ font-size: 72px;
       opacity: 1;
 }
 
-#portfolio img {
+/*#portfolio img {
   width: 100%;
   display: flex;
+}*/
+.tdtClass img {
+	height: 150px;
 }
 /*TDT CASE STUDY!!!!!!!!!!!!!!!!!! */
 /*think dream tank page*/
