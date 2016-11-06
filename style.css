@@ -12,7 +12,7 @@ html, body {
 @media handheld and (max-width: 380px) and (orientation: portrait) {
   html,body{width:100%;overflow-x:hidden;}
 }
-.page-scroll pull-left {
+.page-scroll .pull-left {
 	  font-family: 'GrandHotelRegular';
 		font-size: 30px;
 		color: blue;
@@ -227,7 +227,7 @@ font-size: 72px;
 }
 .container-bottom img {
 	height: 300px;
-	margin-left: 30px;;
+	margin-left: 30px;
 }
 .well:after, .well:before {
       position: absolute;
