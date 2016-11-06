@@ -372,9 +372,20 @@ font-size: 72px;
 
 .tdtClass img {
 	height: 310px;
+	margin-left: 10px;
 }
 .bulk img {
 	height: 310px;
+	margin-left: 10px;
+}
+.north img {
+	height: 310px;
+}
+.permaculture img {
+	height: 310px;
+}
+.cppe img {
+	height: 300px;
 }
 .ny img {
 	height: 300px;
