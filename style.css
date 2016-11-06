@@ -359,11 +359,11 @@ font-size: 72px;
       opacity: 1;
 }
 
-.row-eq-height .col-md-4 img {
+/*.row-eq-height .col-md-4 img {
   /*width: 100%;*/
   display: flex;
 	height: 300px;
-	width: 300px;
+	width: 300px;*/
 
 }
 .row .col-md-4 img {
