@@ -12,7 +12,7 @@ html, body {
 @media handheld and (max-width: 380px) and (orientation: portrait) {
   html,body{width:100%;overflow-x:hidden;}
 }
-.ll {
+.page-scroll a {
 	  font-family: 'GrandHotelRegular';
 		size: 30px;
 }
@@ -224,7 +224,7 @@ font-family: 'GrandHotelRegular';
 display: center;
 font-size: 72px;
 }
-#portfolio img {
+.jumbotron img {
 	height: 300px;
 	display: center;
 }
@@ -731,6 +731,25 @@ h2 {
   margin-right: 10%;
 }
 #permaculture img {
+	height: 500px;
+	margin-right: 5%;
+	float: right;
+}
+#cppe {
+	margin-top: 10%;
+	margin-bottom: 12%;
+	margin-left: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+#cppe h2 {
+	  font-family: 'GrandHotelRegular';
+		font-size: 40px;
+}
+#cppe h3 {
+  text-align: left;
+  margin-right: 10%;
+}
+#cppe img {
 	height: 500px;
 	margin-right: 5%;
 	float: right;
