@@ -367,6 +367,9 @@ font-size: 72px;
 .row-eq-height img {
 	height: 300px;
 }
+.tdtClass img {
+	height: 400px;
+}
 /*.tdtClass img {
 	height: 300px;
 }*/
