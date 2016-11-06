@@ -360,7 +360,7 @@ font-size: 72px;
 }
 
 .row-eq-height .col-md-4 img {
-  width: 100%;
+  width: 90%;
   /*display: flex;*/
 	height: 300px;
 }
@@ -768,6 +768,9 @@ h2 {
 	height: 500px;
 	margin-right: 5%;
 	float: right;
+}
+#cppe .container img {
+	height: 200px;
 }
 /*#pri {
   height: 400px;
