@@ -208,7 +208,7 @@ display: center;
 font-size: 72px;
 }
 .container-bottom img {
-	height: 200px;
+	height: 400px;
 }
 #cppe .container-bottom img {
 	height: 200px;
@@ -821,7 +821,7 @@ h2 {
   margin-right: 10%;
 }
 #cppe .col-md-5 img {
-	height: 500px;
+	height: 350px;
 	margin-right: 5%;
 	float: right;
 	margin-top: 20px;
