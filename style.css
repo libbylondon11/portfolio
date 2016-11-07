@@ -208,7 +208,7 @@ display: center;
 font-size: 72px;
 }
 .container-bottom img {
-	height: 500px;
+	height: 300px;
 	margin-top: 5px;
 }
 .well:after, .well:before {
@@ -837,7 +837,7 @@ h2 {
   margin-right: 10%;
 }
 #nile .col-md-5 img {
-	height: 500px;
+	height: 300px;
 	margin-right: 3%;
 }
 
