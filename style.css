@@ -207,9 +207,9 @@ font-family: 'GrandHotelRegular';
 display: center;
 font-size: 72px;
 }
-/*.container-bottom img {
+.container-bottom img {
 	height: 300px;
-}*/
+}
 .well:after, .well:before {
       position: absolute;
       opacity: 0;
