@@ -205,13 +205,13 @@ height: 70%;
 #portfolio h2 {
 font-family: 'GrandHotelRegular';
 display: center;
-font-size: 72px;
+font-size: 62px;
 }
 #cppe .container-bottom img {
 	height: 500px;
 }
 #cppe .bottom img {
-	height: 200px;
+	height: 400px;
 }
 #permaculture .container-bottom img {
 	height: 500px;
@@ -390,7 +390,7 @@ font-size: 72px;
 	height: 340px;
 }
 .row .cppe img {
-	height: 325px;
+	height: 300px;
 	width: 100%;
 }
 .row .ny img {
@@ -840,7 +840,7 @@ h2 {
 	margin-right: 20px;
 }
 #cppe .col-md-4 img {
-	height: 400px;
+	height: 550px;
 	margin-top: 10px;
 	margin-right: 10px;
 }
