@@ -379,26 +379,29 @@ font-size: 72px;
 .tdtClass img {
 	height: 350px;
 	width: 300px;
-	display: center;
-	margin-left: 5px;
+	margin-right: 25px;
 }
 .cppe img {
 	height: 325px;
 	width: 100%;
-	margin-right: 5px;
+	margin-right: 10px;
 }
 .ny img {
 	height: 350px;
+	margin-right: 10px;
+}
+.nile img {
+	height: 350px;
+
+}
+.white img {
+	height: 350px;
 	width: 100%;
 }
-/*.tdtClass img {
-	width: 230px;
-	/*margin-left: 20px;*/
-/*}*/
-/*.bulk img {
-	width: 300px;
-	margin-left: 30px;
-}*/
+.pri img {
+	height: 350px;
+	width: 100%;
+}
 /*.north img {
 	width: 200px;
 }*/
