@@ -28,9 +28,6 @@ animation-duration: 10s;
 animation-direction: alternate;
 height: 70%;
 }
-#portfolio {
-	height: 100%;
-}
 /*@keyframes cf3FadeInOut {
   0% {
   opacity:1;
@@ -803,7 +800,7 @@ h2 {
   margin-right: 10%;
 }
 #ny .col-md-5 img {
-	height: 300px;
+	height: 400px;
 	margin-right: 5%;
 	float: right;
 	margin-top: 10px;
@@ -824,7 +821,7 @@ h2 {
   margin-right: 10%;
 }
 #cppe .col-md-5 img {
-	height: 300px;
+	height: 400px;
 	margin-right: 5%;
 	float: right;
 }
@@ -847,7 +844,7 @@ h2 {
   margin-right: 10%;
 }
 #nile .col-md-5 img {
-	height: 200px;
+	height: 300px;
 	margin-right: 3%;
 }
 
