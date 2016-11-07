@@ -875,5 +875,5 @@ footer {
   display: center;
 }
 figcaption {
-    display: block;
+    display: center-block;
 }
