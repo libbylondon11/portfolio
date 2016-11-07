@@ -772,14 +772,14 @@ h2 {
 	margin-right: 10%;
 
 }
-#ny img {
+/*#ny img {
 	height: 300px;
-}
+}*/
 #ny .col-md-5 img {
 	height: 350px;
 }
 #ny .col-md-6 img {
-	height: 300px;
+	height: 350px;
 }
 #ny {
   margin-top: 10%;
