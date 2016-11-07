@@ -368,28 +368,29 @@ font-size: 72px;
 }
 .row .col-md-4 img {
 	height: 300px;
+	display: flex;
 }
 
-.tdtClass img {
+/*.tdtClass img {
 	width: 230px;
 	/*margin-left: 20px;*/
-}
-.bulk img {
+/*}*/
+/*.bulk img {
 	width: 300px;
 	margin-left: 30px;
-}
-.north img {
+}*/
+/*.north img {
 	width: 200px;
-}
-.permaculture img {
+}*/
+/*.permaculture img {
 	width: 300px;
-}
-.cppe img {
+}*/
+/*.cppe img {
 	width: 300px;
-}
-.ny img {
+}*/
+/*.ny img {
 	width: 300px;
-}
+}*/
 /*.tdtClass img {
 	height: 300px;
 }*/
