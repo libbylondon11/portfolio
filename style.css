@@ -367,9 +367,13 @@ font-size: 72px;
 /*.bs-grid-small img {
 	height: 300px;
 }*/
-.well img {
+.well {
 	height: 300px;
 	width: 300px;
+
+}
+.row-fluid img {
+overflow: hidden;
 }
 /*.tdtClass img {
 	width: 230px;
