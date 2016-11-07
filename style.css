@@ -366,29 +366,29 @@ font-size: 72px;
 	width: 300px;*/
 
 }
-/*.row .col-md-4 img {
-	width: 280px;
-}*/
+.row .col-md-4 img {
+	height: 300px;
+}
 
 .tdtClass img {
-	height: 230px;
+	width: 230px;
 	/*margin-left: 20px;*/
 }
 .bulk img {
-	height: 300px;
+	width: 300px;
 	margin-left: 30px;
 }
 .north img {
-	height: 200px;
+	width: 200px;
 }
 .permaculture img {
-	height: 325px;
+	width: 300px;
 }
 .cppe img {
-	height: 300px;
+	width: 300px;
 }
 .ny img {
-	height: 300px;
+	width: 300px;
 }
 /*.tdtClass img {
 	height: 300px;
