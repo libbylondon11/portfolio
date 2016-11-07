@@ -815,8 +815,8 @@ h2 {
   text-align: left;
   margin-right: 10%;
 }
-#cppe img {
-	height: 500px;
+#cppe .col-md-5 img {
+	height: 400px;
 	margin-right: 5%;
 	float: right;
 }
