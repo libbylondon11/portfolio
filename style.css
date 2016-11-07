@@ -371,6 +371,9 @@ font-size: 72px;
 	height: 300px;
 	/*width: 300px;*/
 }
+.bs-grid-small {
+	height: 300px;
+}
 
 /*.tdtClass img {
 	width: 230px;
