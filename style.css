@@ -821,9 +821,10 @@ h2 {
   margin-right: 10%;
 }
 #cppe .col-md-5 img {
-	height: 400px;
+	height: 500px;
 	margin-right: 5%;
 	float: right;
+	margin-top: 10px;
 }
 #cppe .container img {
 	height: 500px;
