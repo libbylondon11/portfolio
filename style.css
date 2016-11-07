@@ -366,9 +366,9 @@ font-size: 72px;
 	width: 300px;*/
 
 }
-#portfolio .row img {
+#portfolio img {
 	height: 300px;
-	width: 300px;
+	/*width: 300px;*/
 }
 
 /*.tdtClass img {
