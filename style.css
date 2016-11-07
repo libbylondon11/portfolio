@@ -26,7 +26,7 @@ animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
 animation-duration: 10s;
 animation-direction: alternate;
-height: 70%;
+height: 80%;
 }
 /*@keyframes cf3FadeInOut {
   0% {
@@ -205,7 +205,7 @@ height: 70%;
 #portfolio h2 {
 font-family: 'GrandHotelRegular';
 display: center;
-font-size: 62px;
+font-size: 55px;
 }
 #cppe .container-bottom img {
 	height: 500px;
@@ -843,6 +843,9 @@ h2 {
 	height: 550px;
 	margin-top: 10px;
 	margin-right: 10px;
+}
+#cppe .col-sm-4 img {
+	height: 900px;
 }
 .nyTop img {
 	margin-top: 40px;
