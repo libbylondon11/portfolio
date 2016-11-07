@@ -832,6 +832,8 @@ h2 {
 }
 #cppe .col-md-6 img {
 	height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 #nile {
   margin-top: 10%;
