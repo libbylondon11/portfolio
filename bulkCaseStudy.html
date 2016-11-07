@@ -74,12 +74,10 @@
 co-op grocery stores in Minneapolis as a way to save money, select exactly how much quantity of
 a certain spice they want, and to reduce packaging waste. When shopping in the bulk aisle, customers
 have to scoop out their spice and write the PLU number on the container. They are not required to
-write down the name of the spice. One day, as I was baking a cake with a friend, my friend went to
-the cupboard to find the cornstarch, and she saw nothing labeled “cornstarch,” just a few co-op containers
-with PLU numbers and no names. My friend thought that she had purchased cornstarch at one time, but had
-no idea what any of the PLU numbers before her meant.  I watched as her friend threw away three
+write down the name of the spice.  I had an experience once when I watched a friend throw away three
 containers of unnamed bulk spices because she did not know what they were, and then headed out the door to
-pick up some cornstarch from the grocery store just so we could finish our recipe.  This inspired me to create something that would help
+pick up some more bulk spices from the grocery store just so she could be sure she knew what the product was.
+ This inspired me to create something that would help
 people identify their spices bought from co-op grocery stores so that they don’t waste time and waste spices. </p>
 <h4>THE SOLUTION</h4>
 <p>I thought that creating an application to discover the name of spices from co-op grocery stores would
@@ -88,7 +86,13 @@ to interview co-op shoppers. </p>
 <h4> THE PROCESS </h4>
 <p>I wanted to understand if the problem of needing to identify spices bought from co-op grocery stores was a
   common issue, and if so, what would help customers to not waste time and money by buying new spices and throwing
-  away unidentified bulk spices.</p>
+  away unidentified bulk spices. I interviewed 15 people who shop at co-op grocery stores in Minneapolis and was able to create three user personas.
+  Based on my user interviews and resulting user profiles, I designed for simplicity and ease of use.
+  I wanted to create an application that was easy to use and designed for when users are in the kitchen cooking. I researched similar applications using
+  cometitive and comparative reviews to understand the landscape of applications like this.  I then spent time sketching out the database structure and page
+  structure on white board as you can see below.  After this, I moved into creating wireframes both by sketching and in Axure. From there I began building
+  the website.
+</p>
 <!-- <p>After conducting the user interviews, I analyzed the results and came up with our user profile:
 	 Name: Matt Hansen<br>
 	Young: Age 25-35<br>
@@ -97,20 +101,11 @@ to interview co-op shoppers. </p>
 	Technology: iPhone <br>
 	Architype: Buys bulk for environmental and financial reasons. Is busy and grocery shops for just himself and without a list.
   <br>He wants to shop at the co-op, but likes to do it as cheaply as possibly.</p> -->
-
+<!--
 <h4>ANALYSIS AND PROCESS</h4>
-<p>Based on my user interviews and resulting user profile, I designed for simplicity and ease of use.
-   I wanted to create an application that was easy to use and designed for when users are in the kitchen cooking.</p>
+<p></p> -->
 <!-- <div class = "image"> -->
 
-<h4>DEVELOPMENT</h4>
-<p>I designed my database and pages by sketching it out on a whiteboard. I designed the application to be mobile first and responsive. I wanted the application to be simple and not involve a lot of
-I used javascript, express, node.js, and angular to create my pages and views.  The first
- main page is the log in page, and then the home page shows the co-ops, and the users can click on their co-op.  The information
- on spices is populated via an angular ng-view partial. The log in feature was an important and challenging part of the development
-  phase.  Using passport.js, I developed the site to have log in capabilities. The database was developed using Postgresql and one
-  of the biggest challenges was designing tables that were easily joined, as well as creating my own API of the local co-op grocery stores spices.
-</p>
 <!-- </div> -->
 <a class="btn btn-custom" href="https://salty-dusk-26108.herokuapp.com/" role = "button">VIEW WEBSITE</a>
 <a class="btn btn-custom" href="wireframeBulk.html" role = "button">VIEW WIREFRAME</a>
@@ -123,6 +118,7 @@ I used javascript, express, node.js, and angular to create my pages and views.  
 
 <div class = "bottom">
           <img class="center-block" src="whiteWhiteboard.png" />
+            <figcaption>Designing database and page structures</figcaption>
             <!-- <img id = "pri" src= "images/PRIMobileFront.png" alt="bulk"/>
             <img id = "pri1" src= "images/PRIPerennialMobile.png" alt="bulk"/> -->
 </div>
