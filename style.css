@@ -369,11 +369,12 @@ font-size: 72px;
 }*/
 .well {
 	height: 300px;
-	width: 300px;
+	width: 350px;
 
 }
 .row-fluid img {
-overflow: hidden;
+	height: 300px;
+	width: 350px;
 }
 /*.tdtClass img {
 	width: 230px;
