@@ -366,9 +366,8 @@ font-size: 72px;
 	width: 300px;*/
 
 }
-.row .col-md-4 img {
+#portfolio img {
 	height: 300px;
-	display: flex;
 }
 
 /*.tdtClass img {
