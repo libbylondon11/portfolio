@@ -378,7 +378,14 @@ font-size: 72px;
 }*/
 .tdtClass img {
 	height: 350px;
-	width: 290px;
+	width: 300px;
+	display: center;
+	margin-left: 5px;
+}
+.cppe img {
+	height: 325px;
+	width: 100%;
+	display: center;
 }
 /*.tdtClass img {
 	width: 230px;
