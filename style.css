@@ -822,6 +822,24 @@ h2 {
 	height: 500px;
 	margin-left: 25px;
 }
+#nile {
+  margin-top: 10%;
+  margin-bottom: 12%;
+	margin-left: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+#nile h2 {
+	  font-family: 'GrandHotelRegular';
+		font-size: 40px;
+}
+#nile h3 {
+  text-align: left;
+  margin-right: 10%;
+}
+#nile .col-md-5 img {
+	height: 500px;
+	margin-right: 3%;
+}
 /*#pri {
   height: 400px;
   /*margin-left: 30%;
@@ -850,26 +868,7 @@ h2 {
   text-align: right;
   margin-right: 10%;
 }
-#dyed1 {
-  height: 300px;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
 
-}
- #dyed2 {
-   height: 330px;
-   margin-left: 30%;
-   margin-top: 4%;
-   margin-bottom: 5%;
-}
-#dyed {
-  margin-top: 5%;
-  text-align: right;
-  text-justify: inter-word;
-  margin-right: 10%;
-  margin-left: 30%;
-}
 footer {
   text-align: center;
   color: black;
