@@ -367,11 +367,8 @@ font-size: 72px;
 	width: 300px;*/
 
 }
-.row-fluid img {
-	height: 300px;
-	/*width: 300px;*/
-}
-.bs-grid-small {
+
+.bs-grid-small img {
 	height: 300px;
 }
 
