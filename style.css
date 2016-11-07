@@ -210,7 +210,9 @@ font-size: 72px;
 #cppe .container-bottom img {
 	height: 500px;
 }
-
+#cppe .bottom img {
+	height: 400px;
+}
 #permaculture .container-bottom img {
 	height: 500px;
 	margin-top: 5px;
@@ -839,6 +841,9 @@ h2 {
 .tdtTop img {
 	margin-top: 40px;
 	height: 500px;
+}
+.bulkTop img {
+	height: 400px;
 }
 #nile {
   margin-top: 10%;
