@@ -370,7 +370,6 @@ font-size: 72px;
 .well {
 	height: 350px;
 	width: 400px;
-
 }
 /*.row img {
 	height: 350px;
@@ -392,14 +391,14 @@ font-size: 72px;
 }
 .nile img {
 	height: 350px;
-	width: 100%;
+	width: 390px;
 }
 .white img {
-	height: 350px;
-	width: 100%;
+	height: 330px;
+	display: center;
 }
 .pri img {
-	height: 350px;
+	height: 330px;
 	width: 100%;
 
 }
