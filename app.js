@@ -36,7 +36,7 @@ $(function(){
     });
 });
 $(function(){
-    $('.north').click(function(){
+    $('.nile').click(function(){
         window.location='northnile.html'
     });
 });
