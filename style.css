@@ -368,10 +368,12 @@ font-size: 72px;
 
 }
 
-.bs-grid-small img {
+/*.bs-grid-small img {
 	height: 300px;
+}*/
+.container-fluid {
+	height: 200px;
 }
-
 /*.tdtClass img {
 	width: 230px;
 	/*margin-left: 20px;*/
