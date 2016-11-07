@@ -385,7 +385,11 @@ font-size: 72px;
 .cppe img {
 	height: 325px;
 	width: 100%;
-	display: center;
+	margin-right: 5px;
+}
+.ny img {
+	height: 350px;
+	width: 100%;
 }
 /*.tdtClass img {
 	width: 230px;
