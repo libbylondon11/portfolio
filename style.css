@@ -824,11 +824,14 @@ h2 {
 	height: 500px;
 	margin-right: 5%;
 	float: right;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 #cppe .container img {
 	height: 500px;
 	margin-left: 25px;
+}
+#cppe .row-md-6 img {
+	height: 300px;
 }
 #nile {
   margin-top: 10%;
