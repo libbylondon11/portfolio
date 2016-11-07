@@ -367,7 +367,7 @@ font-size: 72px;
 /*.bs-grid-small img {
 	height: 300px;
 }*/
-.container-fluid img {
+.well {
 	height: 300px;
 }
 /*.tdtClass img {
