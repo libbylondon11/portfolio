@@ -376,6 +376,10 @@ font-size: 72px;
 	height: 300px;
 	width: 350px;
 }
+.tdtClass img {
+	height: 300px;
+	width: 300px;
+}
 /*.tdtClass img {
 	width: 230px;
 	/*margin-left: 20px;*/
