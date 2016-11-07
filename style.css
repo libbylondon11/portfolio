@@ -105,13 +105,14 @@ svg {
 }
 #home {
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 #home p {
   display: block;
   /*display: center;*/
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
+	margin-bottom: 10px;
   /*letter-spacing: .5px;*/
 }
 #home h1 {
@@ -126,7 +127,9 @@ svg {
   margin-left: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
+	margin-bottom: 10px;
 }
+
 body {
   margin:0;
   padding: 0 0 0 0;
@@ -278,7 +281,7 @@ font-size: 55px;
 
 .tdtClass:after {
     /*content: "Web Development, UX, & Design";*/
-    content: "Web Development, UX, & Design";
+    content: "Web Development, UX, & User Research";
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
@@ -335,7 +338,7 @@ font-size: 55px;
     background:rgba(0,0,0,0.8);
 }
 .pri:after {
-    content: "UX";
+    content: "Usability Testing & Wireframes";
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
