@@ -270,7 +270,7 @@ font-size: 72px;
     background:rgba(0,0,0,0.8);
 }
 
-.tdt:after {
+.tdtClass:after {
     /*content: "Web Development, UX, & Design";*/
     content: "Web Development, UX, & Design";
     color:white;
@@ -314,7 +314,7 @@ font-size: 72px;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
 }
-.shanty:after {
+.ny:after {
     content: "UX/UI";
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -328,7 +328,7 @@ font-size: 72px;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
 }
-.perm:after {
+.pri:after {
     content: "UX";
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -342,7 +342,7 @@ font-size: 72px;
     top: 0; left:0;
     background:rgba(0,0,0,0.8);
 }
-.naturalDye:after {
+.cppe:after {
     content: "User Research and UI";
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -369,7 +369,7 @@ font-size: 72px;
 }*/
 .well {
 	height: 350px;
-	width: 100%;
+	width: 400px;
 
 }
 /*.row img {
