@@ -372,14 +372,14 @@ font-size: 72px;
 	width: 100%;
 
 }
-.row img {
+/*.row img {
 	height: 350px;
 	width: 100%;
-}
-/*.tdtClass img {
-	height: 300px;
-	width: 300px;
 }*/
+.tdtClass img {
+	height: 350px;
+	width: 290px;
+}
 /*.tdtClass img {
 	width: 230px;
 	/*margin-left: 20px;*/
