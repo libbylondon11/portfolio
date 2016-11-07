@@ -208,7 +208,14 @@ display: center;
 font-size: 72px;
 }
 .container-bottom img {
-	height: 300px;
+	height: 200px;
+}
+#cppe .container-bottom img {
+	height: 500px;
+	margin-top: 5px;
+}
+#permaculture .container-bottom img {
+	height: 500px;
 	margin-top: 5px;
 }
 .well:after, .well:before {
@@ -768,7 +775,7 @@ h2 {
   margin-right: 10%;
 }
 #permaculture .col-md-5 img {
-	height: 500px;
+	height: 300px;
 	margin-right: 3%;
 }
 /*#ny img {
@@ -793,7 +800,7 @@ h2 {
   margin-right: 10%;
 }
 #ny .col-md-5 img {
-	height: 400px;
+	height: 300px;
 	margin-right: 5%;
 	float: right;
 	margin-top: 10px;
@@ -814,7 +821,7 @@ h2 {
   margin-right: 10%;
 }
 #cppe .col-md-5 img {
-	height: 400px;
+	height: 300px;
 	margin-right: 5%;
 	float: right;
 }
@@ -837,7 +844,7 @@ h2 {
   margin-right: 10%;
 }
 #nile .col-md-5 img {
-	height: 300px;
+	height: 200px;
 	margin-right: 3%;
 }
 
