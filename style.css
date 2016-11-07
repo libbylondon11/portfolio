@@ -207,13 +207,10 @@ font-family: 'GrandHotelRegular';
 display: center;
 font-size: 72px;
 }
-.container-bottom img {
-	height: 400px;
-}
 #cppe .container-bottom img {
-	height: 200px;
-	margin-top: 5px;
+	height: 500px;
 }
+
 #permaculture .container-bottom img {
 	height: 500px;
 	margin-top: 5px;
@@ -838,6 +835,10 @@ h2 {
 .nyTop img {
 	margin-top: 40px;
 	height: 300px;
+}
+.tdtTop img {
+	margin-top: 40px;
+	height: 500px;
 }
 #nile {
   margin-top: 10%;
