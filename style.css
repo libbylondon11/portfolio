@@ -26,7 +26,7 @@ animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
 animation-duration: 10s;
 animation-direction: alternate;
-height: 80%;
+height: 70%;
 }
 /*@keyframes cf3FadeInOut {
   0% {
@@ -366,8 +366,9 @@ font-size: 72px;
 	width: 300px;*/
 
 }
-#portfolio img {
+#portfolio .row img {
 	height: 300px;
+	width: 300px;
 }
 
 /*.tdtClass img {
