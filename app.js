@@ -16,28 +16,28 @@ $(function(){
     });
 });
 $(function(){
-    $('.bulk').click(function(){
+    $('.cppe').click(function(){
+        window.location='cppe.html'
+    });
+});
+$(function(){
+    $('.ny').click(function(){
+        window.location='ny.html'
+    });
+});
+$(function(){
+    $('.pri').click(function(){
+        window.location='permaculture.html'
+    });
+});
+$(function(){
+    $('.white').click(function(){
         window.location='bulkCaseStudy.html'
     });
 });
 $(function(){
     $('.north').click(function(){
         window.location='northnile.html'
-    });
-});
-$(function(){
-    $('.permaculture').click(function(){
-        window.location='permaculture.html'
-    });
-});
-$(function(){
-    $('.artShanty').click(function(){
-        window.location='artshanties.html'
-    });
-});
-$(function(){
-    $('.dye').click(function(){
-        window.location='bornanddyed.html'
     });
 });
 //
