@@ -367,7 +367,7 @@ font-size: 72px;
 	width: 300px;*/
 
 }
-#portfolio img {
+.row-fluid {
 	height: 300px;
 	/*width: 300px;*/
 }
