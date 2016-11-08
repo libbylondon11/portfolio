@@ -15,6 +15,7 @@
 }
 .navbar-default {
   background-color: black;
+	font-size: 14px;
 }
 .row {
 border: none !important;
@@ -384,7 +385,6 @@ border: none !important;
   color: black;
   font-size: 12px;
   background-color: white;
-  letter-spacing: .8px;
   white-space: normal;
 	border: none !important;
 }
@@ -393,7 +393,6 @@ border: none !important;
   color: black;
   font-size: 12px;
   background-color: snow;
-  letter-spacing: .8px;
   white-space: normal;
 	border: none !important;
 }
