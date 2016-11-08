@@ -478,10 +478,10 @@ border: none !important;
 	margin-top: 40px;
 }
 #cppe .container-bottom img {
-	height: 500px;
+	height: 400px;
 }
 #cppe .bottom img {
-	height: 400px;
+	height: 380px;
 }
 #permaculture .container-bottom img {
 	height: 500px;
@@ -521,3 +521,8 @@ border: none !important;
 	float: right;
 	margin-top: 10px;
 }
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
