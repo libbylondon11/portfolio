@@ -384,6 +384,7 @@ border: none !important;
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 12px;
+	font-style: bold;
   background-color: white;
   white-space: normal;
 	border: none !important;
@@ -391,8 +392,15 @@ border: none !important;
 .btn-custom:hover {
   font-family: 'Open Sans', sans-serif;
   color: black;
+	font-style: bold;
   font-size: 12px;
   background-color: snow;
   white-space: normal;
 	border: none !important;
+}
+#home {
+	background-color: mediumturquoise;
+}
+#contact {
+	background-color: white;
 }
