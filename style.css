@@ -10,7 +10,9 @@
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("ny.png");
-		background-image height: 100%;
+		background-size: cover;
+		background-position:center center;
+	 background-repeat:no-repeat;
 }
 
 .thumbnail {
