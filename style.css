@@ -1,6 +1,18 @@
 .dummy {
     margin-top: 100%;
 }
+.thumbnail {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+		background-size: cover;
+		background-position:center center;
+	 background-repeat:no-repeat;
+}
 .aqua {
     position: absolute;
     top: 15px;
@@ -14,8 +26,7 @@
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
-
-.thumbnail {
+.gold {
     position: absolute;
     top: 15px;
     bottom: 0;
@@ -23,11 +34,24 @@
     right: 0;
     text-align:center;
     padding-top:calc(50% - 30px);
+		background-image:url("cppe.png");
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
-
+.aqua {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+		background-image:url("nileDesktop.png");
+		background-size: cover;
+		background-position:center center;
+	 background-repeat:no-repeat;
+}
 #about {
 	height: 85%;
 }
