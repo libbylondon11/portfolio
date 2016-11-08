@@ -29,10 +29,7 @@ border: none !important;
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
-a {
-border: none !important;
-display: block;
-}
+
 .dummy:after, .dummy:before {
       position: absolute;
       opacity: 0;
@@ -92,7 +89,7 @@ display: block;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("nileDesktop.png");
-		background-size: 70%;
+		background-size: 60%;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
@@ -119,7 +116,7 @@ display: block;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("WhitePowder4.png");
-		background-size: 60%;
+		background-size: 40%;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
