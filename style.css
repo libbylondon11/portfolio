@@ -424,16 +424,16 @@ border: none !important;
 	margin-bottom: 10px;
 }
 #home p {
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-#home strong {
+#home .col-md-7 p {
 	text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 	margin-bottom: 10px;
-	font-size: 14px;
+	font-size: 20px;
   color: black;
 }
 #home img {
