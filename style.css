@@ -431,7 +431,7 @@ border: none !important;
 }
 #home p {
 	text-align: center;
-  margin-top: 25px;
+  margin-top: 22px;
 	margin-bottom: 10px;
 	font-size: 30px;
   font-style: bold;
@@ -450,10 +450,10 @@ border: none !important;
 	background-color: white;
 }
 #github {
-  height: 100px;
+  height: 200px;
 }
 #linkedin {
-  height: 100px;
+  height: 200px;
 }
 #contact p {
   text-align: center;
