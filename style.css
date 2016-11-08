@@ -19,6 +19,7 @@ border: none !important;
 a {
     text-decoration: none !important;
 		border: none !important;
+		font-size: 30px;
 }
 .aqua {
     position: absolute;
@@ -79,7 +80,7 @@ a {
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("cppe.png");
-		background-size: 60%;
+		background-size: 40%;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
@@ -94,7 +95,7 @@ a {
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("nileDesktop.png");
-		background-size: 60%;
+		background-size: 40%;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
@@ -121,7 +122,7 @@ a {
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("WhitePowder4.png");
-		background-size: 40%;
+		background-size: 30%;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
