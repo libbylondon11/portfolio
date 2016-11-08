@@ -39,7 +39,7 @@
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
-.aqua {
+.red {
     position: absolute;
     top: 15px;
     bottom: 0;
@@ -48,6 +48,45 @@
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("nileDesktop.png");
+		background-size: cover;
+		background-position:center center;
+	 background-repeat:no-repeat;
+}
+.green {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+		background-image:url("PRIiphonehand2.png");
+		background-size: cover;
+		background-position:center center;
+	 background-repeat:no-repeat;
+}
+.white{
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+		background-image:url("WhitePowder4.png");
+		background-size: cover;
+		background-position:center center;
+	 background-repeat:no-repeat;
+}
+.black{
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+		background-image:url("TDTipad.png");
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
