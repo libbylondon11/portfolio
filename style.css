@@ -13,6 +13,9 @@
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
+p {
+	font-family: 'Open Sans', sans-serif;
+}
 .navbar-default {
   background-color: black;
 	font-size: 14px;
@@ -136,11 +139,6 @@ border: none !important;
 .contact-section h1 {
 	font-family: 'GrandHotelRegular';
 	font-size: 50px;
-	color: black;
-}
-.cppe h2 {
-	font-family: 'GrandHotelRegular';
-	font-size: 32px;
 	color: black;
 }
 
@@ -401,6 +399,54 @@ border: none !important;
 #home {
 	background-color: mediumturquoise;
 }
+#home h4 {
+	font-family: 'GrandHotelRegular';
+	font-size: 16px;
+}
 #contact {
 	background-color: white;
+}
+#cppe h2 {
+	font-family: 'GrandHotelRegular';
+	font-size: 32px;
+	color: black;
+}
+#cppe {
+	margin-top: 10%;
+	margin-bottom: 12%;
+	margin-left: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+#cppe h3 {
+  text-align: left;
+  margin-right: 10%;
+}
+#cppe .col-md-5 img {
+	height: 350px;
+	margin-right: 5%;
+	float: right;
+	margin-top: 20px;
+}
+#cppe .container img {
+	height: 500px;
+	margin-left: 25px;
+}
+#cppe .col-md-6 img {
+	height: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#cppe .row .col-md-6 img {
+	height: 400px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#cppe .col-md-4 img {
+	height: 550px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#cppe .col-sm-4 img {
+	height: 400px;
+	margin-top: 40px;
 }
