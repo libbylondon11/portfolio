@@ -26,17 +26,6 @@ border: none !important;
 
 }
 
-.aqua:after {
-	content: '\A';
-	position: absolute;
-	width: 100%; height:100%;
-	top:0; left:0;
-	background:rgba(0,0,0,0.6);
-	opacity: 0;
-	transition: all 1s;
-	-webkit-transition: all 1s;
-}
-
 .aqua {
 	position: absolute;
 	top: 15px;
@@ -63,16 +52,12 @@ border: none !important;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("cppe.png");
-		background-size: 80%;
+		background-size: 90%;
 		background-position:center center;
 	 background-repeat:no-repeat;
 	 border: none !important;
 }
-.gold:after{
-	content: 'TEST';
-	background:rgba(0,0,0,0.6);
-	color:white;
-}
+
 .red {
     position: absolute;
     top: 15px;
@@ -82,8 +67,7 @@ border: none !important;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("nileDesktop.png");
-		background-size: 40%;
-		background-size: cover;
+		background-size: 80%;
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
@@ -109,8 +93,7 @@ border: none !important;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("WhitePowder4.png");
-		background-size: 30%;
-		background-size: cover;
+		background-size: 50%;
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
@@ -154,4 +137,70 @@ border: none !important;
 	font-family: 'GrandHotelRegular';
 	font-size: 50px;
 	color: black;
+}
+.cppe h2 {
+	font-family: 'GrandHotelRegular';
+	font-size: 32px;
+	color: black;
+}
+
+
+
+.col-md-4:after, .col-md-4l:before {
+      position: absolute;
+      opacity: 0;
+      transition: all 1.0s;
+      -webkit-transition: all 1.0s;
+}
+.col-md-4 {
+    position:relative;
+    border:0.1px solid #f8f8f8;
+    width:100%; height:100%;
+    background-color:#f8f8f8
+    padding-bottom: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+.col-md-4:before {
+    content: attr(data-content);
+    /*content: attr(href);*/
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    transition: 2s;
+    bottom: 0;
+    padding: 2px 2px;
+    margin-bottom: 0px;
+    text-align: center;
+    /*box-sizing: border-box;*/
+    -moz-box-sizing:border-box;
+}
+.col-md-4:after {
+    content: attr(data-content);
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40%;
+    /*padding: 2px 2px;*/
+    width: 100%;
+    height:100%;
+    top: 0; left:0;
+    background:rgba(0,0,0,0.8);
+}
+.white:after {
+    content: "UX & Web Development";
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40%;
+    /*padding: 2px 2px;*/
+    width: 100%;
+    height:100%;
+    top: 0; left:0;
+    background:rgba(0,0,0,0.8);
 }
