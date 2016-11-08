@@ -13,6 +13,9 @@
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
+.row {
+border: none !important;
+}
 .aqua {
     position: absolute;
     top: 15px;
@@ -26,7 +29,7 @@
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
-a:hover {
+a {
 border: none !important;
 display: block;
 }
@@ -154,6 +157,8 @@ display: block;
 	font-family: 'GrandHotelRegular';
 	font-size: 50px;
 	color: black;
+	text-align: center;
+	display: center;
 }
 .contact-section h1 {
 	font-family: 'GrandHotelRegular';
