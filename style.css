@@ -1,7 +1,7 @@
 .dummy {
     margin-top: 100%;
 }
-.thumbnail .aqua {
+.aqua {
     position: absolute;
     top: 15px;
     bottom: 0;
@@ -15,7 +15,7 @@
 	 background-repeat:no-repeat;
 }
 
-/*.thumbnail {
+.thumbnail {
     position: absolute;
     top: 15px;
     bottom: 0;
@@ -26,7 +26,7 @@
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
-}*/
+}
 
 #about {
 	height: 85%;
