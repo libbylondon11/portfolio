@@ -35,8 +35,7 @@ border: none !important;
 	text-align:center;
 	padding-top:calc(50% - 30px);
 	background-image:url("ny.png");
-	background-size: 40%;
-	background-size: cover;
+	background-size: 90%;
 	background-position:center center;
  background-repeat:no-repeat;
  border: none !important;
@@ -93,7 +92,7 @@ border: none !important;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("WhitePowder4.png");
-		background-size: 50%;
+		background-size: 70%;
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
@@ -144,6 +143,95 @@ border: none !important;
 	color: black;
 }
 
+.aqua:after, .aqua:before {
+      position: absolute;
+      opacity: 0;
+      transition: all 1.0s;
+      -webkit-transition: all 1.0s;
+}
+
+.aqua:before {
+    content: attr(data-content);
+    /*content: attr(href);*/
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    transition: 2s;
+    bottom: 0;
+    padding: 2px 2px;
+    margin-bottom: 0px;
+    text-align: center;
+    /*box-sizing: border-box;*/
+    -moz-box-sizing:border-box;
+}
+
+.aqua:after {
+    content: "UX/UI & Research";
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40%;
+    /*padding: 2px 2px;*/
+    width: 100%;
+    height:100%;
+    top: 0; left:0;
+    background:rgba(0,0,0,0.8);
+}
+.aqua:hover:after, .aqua:hover:before {
+    opacity: 1;
+}
+
+.gold:after, .gold:before {
+      position: absolute;
+      opacity: 0;
+      transition: all 1.0s;
+      -webkit-transition: all 1.0s;
+}
+
+.gold:before {
+    content: attr(data-content);
+    /*content: attr(href);*/
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    transition: 2s;
+    bottom: 0;
+    padding: 2px 2px;
+    margin-bottom: 0px;
+    text-align: center;
+    /*box-sizing: border-box;*/
+    -moz-box-sizing:border-box;
+}
+
+.gold:after {
+    content: "UX/UI";
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40%;
+    /*padding: 2px 2px;*/
+    width: 100%;
+    height:100%;
+    top: 0; left:0;
+    background:rgba(0,0,0,0.8);
+}
+.gold:hover:after, .gold:hover:before {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .white:after, .white:before {
@@ -169,7 +257,7 @@ border: none !important;
 }
 
 .white:after {
-    content: "UX & Web Development";
+    content: "UX/UI Design, UX Research, Development";
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
