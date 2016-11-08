@@ -25,11 +25,15 @@ p {
 border: none !important;
 }
 #about {
-	background-image:url("stardust.png");
+	background-image:url("pexels-photo-27117.jpg");
 	background-size: cover;
 	background-position:center center;
  background-repeat:no-repeat;
  border: none !important;
+}
+#about p {
+	font-size: 18px;
+	color: black;
 }
 #portfolio a {
     text-decoration: none !important;
