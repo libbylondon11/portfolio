@@ -35,7 +35,7 @@ a {
 	 border: none !important;
 }
 
-.aqua:after, .agua:before {
+.aqua:hover:after {
       position: absolute;
       opacity: 0;
       transition: all 1.0s;
@@ -58,7 +58,6 @@ a {
 }
 .agua:after {
     content: "Web Development, UX, & Design";
-    color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 25px;
