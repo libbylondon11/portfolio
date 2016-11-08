@@ -15,6 +15,7 @@
 }
 p {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 }
 .navbar-default {
   background-color: white;
@@ -403,7 +404,7 @@ border: none !important;
 	border-color: black;
 }
 #home {
-	background-image:url("treebark.png");
+	background-image:url("tree_bark.png");
 	background-size: cover;
 	background-position:center center;
  background-repeat:no-repeat;
