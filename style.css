@@ -431,7 +431,7 @@ border: none !important;
 }
 #home p {
 	text-align: center;
-  margin-top: 30px;
+  margin-top: 25px;
 	margin-bottom: 10px;
 	font-size: 30px;
   font-style: bold;
@@ -449,8 +449,19 @@ border: none !important;
 #contact {
 	background-color: white;
 }
-#contact a {
-  height: 300px;
+#github {
+  height: 100px;
+}
+#linkedin {
+  height: 100px;
+}
+#contact p {
+  text-align: center;
+  margin-top: 25px;
+	margin-bottom: 10px;
+	font-size: 30px;
+  font-style: bold;
+  color: black;
 }
 #cppe h2 {
 	font-family: 'GrandHotelRegular';
