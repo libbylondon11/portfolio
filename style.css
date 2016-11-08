@@ -381,20 +381,20 @@ border: none !important;
 .btn-custom {
   font-family: 'Open Sans', sans-serif;
   color: black;
-  font-size: 12px;
+  font-size: 16px;
 	font-style: bold;
   background-color: transparent;
   white-space: normal;
-	border: none !important;
+	border: .2px black;
 }
 .btn-custom:hover {
   font-family: 'Open Sans', sans-serif;
   color: black;
 	font-style: bold;
-  font-size: 12px;
+  font-size: 16px;
   background-color: transparent;
   white-space: normal;
-	border: none !important;
+		border: .2px black;
 }
 #home {
 	background-color: mediumturquoise;
