@@ -383,7 +383,7 @@ border: none !important;
   color: black;
   font-size: 12px;
 	font-style: bold;
-  background-color: white;
+  background-color: transparent;
   white-space: normal;
 	border: none !important;
 }
@@ -392,7 +392,7 @@ border: none !important;
   color: black;
 	font-style: bold;
   font-size: 12px;
-  background-color: snow;
+  background-color: transparent;
   white-space: normal;
 	border: none !important;
 }
