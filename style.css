@@ -27,14 +27,18 @@
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
-.thumbnail:after, .well:before {
+a:hover img {
+border: none !important;
+display: block;
+}
+.thumbnail:after, .thumbnail:before {
       position: absolute;
       opacity: 0;
       transition: all 1.0s;
       -webkit-transition: all 1.0s;
 }
 
-.thimbnail:before {
+.thumbnail:before {
     content: attr(data-content);
     /*content: attr(href);*/
     width: 100%;
