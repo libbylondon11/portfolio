@@ -423,13 +423,13 @@ border: none !important;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-#home p {
+#home .col-md-3 p {
 	font-size: 16px;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-.col-md-7 p {
+#home p {
 	text-align: center;
   margin-top: 30px;
 	margin-bottom: 10px;
@@ -438,7 +438,7 @@ border: none !important;
   color: black;
 }
 #home {
-  height: 80%;
+  height: 50%;
 }
 #home img {
 	height: 200px;
