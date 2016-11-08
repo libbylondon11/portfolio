@@ -19,6 +19,9 @@
 .row {
 border: none !important;
 }
+#about {
+	background-color: sandybrown;
+}
 #portfolio a {
     text-decoration: none !important;
 		border: none !important;
@@ -383,12 +386,14 @@ border: none !important;
   background-color: white;
   letter-spacing: .8px;
   white-space: normal;
+	border: none !important;
 }
 .btn-custom:hover {
   font-family: 'Open Sans', sans-serif;
   color: black;
-  font-size: 14px;
+  font-size: 12px;
   background-color: snow;
   letter-spacing: .8px;
   white-space: normal;
+	border: none !important;
 }
