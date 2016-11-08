@@ -21,6 +21,9 @@
     right: 0;
     text-align:center;
     padding-top:calc(50% - 30px);
+		background-size: cover;
+		background-position:center center;
+	 background-repeat:no-repeat;
 }
 
 #about {
