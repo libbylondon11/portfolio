@@ -13,15 +13,7 @@
 #about {
 	height: 85%;
 }
-.center-block {
-	position: absolute;
-	top: 15px;
-	bottom: 0;
-	left: 15px;
-	right: 0;
-	text-align:center;
-	padding-top:calc(50% - 30px);
-}
+
 #about h1 {
    font-family: 'GrandHotelRegular';
    font-weight: normal;
