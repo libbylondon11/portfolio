@@ -1,7 +1,7 @@
 .dummy {
     margin-top: 100%;
 }
-.thumbnail {
+.thumbnail  {
     position: absolute;
     top: 15px;
     bottom: 0;
@@ -9,6 +9,10 @@
     right: 0;
     text-align:center;
     padding-top:calc(50% - 30px);
+}
+.aqua {
+	background-image:url("ny.png");
+}
 }
 #about {
 	height: 85%;
