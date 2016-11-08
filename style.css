@@ -30,14 +30,14 @@ a {
 border: none !important;
 display: block;
 }
-.thumbnail:after, .thumbail:before {
+a:after, a:before {
       position: absolute;
       opacity: 0;
       transition: all 1.0s;
       -webkit-transition: all 1.0s;
 }
 
-.thumbnail:before {
+a:before {
     content: attr(data-content);
     /*content: attr(href);*/
     width: 100%;
@@ -51,7 +51,7 @@ display: block;
     /*box-sizing: border-box;*/
     -moz-box-sizing:border-box;
 }
-.thumbnail:after {
+a:after {
     content: "Web Development, UX, & Design";
     color:white;
     font-family: 'Open Sans', sans-serif;
