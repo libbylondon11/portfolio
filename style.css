@@ -23,16 +23,10 @@ border: none !important;
     text-decoration: none !important;
 		border: none !important;
 		font-size: 40px;
-		color: white;
+
 }
-.row {
-	position: relative;
-}
-.row .aqua {
-	width: 100%;
-	vertical-align: top;
-}
-.row:after {
+
+.aqua:after {
 	content: '\A';
 	position: absolute;
 	width: 100%; height:100%;
@@ -41,9 +35,6 @@ border: none !important;
 	opacity: 0;
 	transition: all 1s;
 	-webkit-transition: all 1s;
-}
-.row:hover:after {
-    opacity: 1;
 }
 
 .aqua {
@@ -72,11 +63,15 @@ border: none !important;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("cppe.png");
-		background-size: 40%;
-		background-size: cover;
+		background-size: 80%;
 		background-position:center center;
 	 background-repeat:no-repeat;
 	 border: none !important;
+}
+.gold:after{
+	content: 'TEST';
+	background:rgba(0,0,0,0.6);
+	color:white;
 }
 .red {
     position: absolute;
