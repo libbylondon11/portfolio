@@ -24,7 +24,11 @@ p {
 border: none !important;
 }
 #about {
-	background-color: lightcoral;
+	background-image:url("stardust.png");
+	background-size: cover;
+	background-position:center center;
+ background-repeat:no-repeat;
+ border: none !important;
 }
 #portfolio a {
     text-decoration: none !important;
