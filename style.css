@@ -109,9 +109,6 @@ border: none !important;
 		background-position:center center;
 	 	background-repeat:no-repeat;
 }
-#about {
-	height: 85%;
-}
 
 #about h1 {
    font-family: 'GrandHotelRegular';
@@ -324,7 +321,7 @@ border: none !important;
 }
 
 .white:after {
-    content: "UX/UI Design, UX Research, Development";
+    content: "UI Design, Research, Development";
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
@@ -378,4 +375,20 @@ border: none !important;
 }
 .black:hover:after, .black:hover:before {
     opacity: 1;
+}
+.btn-custom {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 12px;
+  background-color: white;
+  letter-spacing: .8px;
+  white-space: normal;
+}
+.btn-custom:hover {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  background-color: snow;
+  letter-spacing: .8px;
+  white-space: normal;
 }
