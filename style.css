@@ -26,18 +26,18 @@
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
-a {
+a:hover {
 border: none !important;
 display: block;
 }
-a:after, a:before {
+.dummy:after, .dummy:before {
       position: absolute;
       opacity: 0;
       transition: all 1.0s;
       -webkit-transition: all 1.0s;
 }
 
-a:before {
+.dummy:before {
     content: attr(data-content);
     /*content: attr(href);*/
     width: 100%;
@@ -51,7 +51,7 @@ a:before {
     /*box-sizing: border-box;*/
     -moz-box-sizing:border-box;
 }
-a:after {
+.dummy:after {
     content: "Web Development, UX, & Design";
     color:white;
     font-family: 'Open Sans', sans-serif;
