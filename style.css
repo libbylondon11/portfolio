@@ -437,9 +437,7 @@ border: none !important;
   font-style: bold;
   color: black;
 }
-#home {
-  height: 50%;
-}
+
 #home img {
 	height: 200px;
 	margin-top: 10px;
@@ -449,8 +447,8 @@ border: none !important;
 #contact {
 	background-color: white;
 }
-#github {
-  height: 200px;
+.fa-github{
+  height: 100px;
 }
 #linkedin {
   height: 200px;
