@@ -18,7 +18,7 @@ p {
 	font-size: 12px;
 }
 .navbar-default {
-  background-color: white;
+  background-color: black;
 	font-size: 14px;
 }
 .row {
@@ -31,9 +31,9 @@ border: none !important;
  background-repeat:no-repeat;
  border: none !important;
 }
-#about p {
+#about p, strong {
 	font-size: 18px;
-	color: black;
+	color: white;
 }
 #portfolio a {
     text-decoration: none !important;
@@ -131,7 +131,7 @@ border: none !important;
    font-weight: normal;
    font-style: normal;
    font-size: 70px;
-   color: black;
+   color: white;
 }
 .home-section h1 {
 	font-family: 'GrandHotelRegular';
@@ -389,23 +389,23 @@ border: none !important;
 }
 .btn-custom {
   font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-size: 16px;
+  color: white;
+  font-size: 18px;
 	font-style: bold;
   background-color: transparent;
   white-space: normal;
 	border-width: .5px;
-	border-color: black;
+	border-color: white;
 }
 .btn-custom:hover {
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: white;
 	font-style: bold;
-  font-size: 16px;
+  font-size: 18px;
   background-color: transparent;
   white-space: normal;
 	border-width: .5px;
-	border-color: black;
+	border-color: white;
 }
 #home {
 	background-image:url("tree_bark.png");
