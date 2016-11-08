@@ -416,18 +416,22 @@ border: none !important;
 }
 #home h4 {
 	font-family: 'GrandHotelRegular';
-	font-size: 25px;
+	font-size: 30px;
 }
 #home {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 	height: 70%;
 }
 #home p {
-	font-size: 16px;
+	font-size: 20px;
 }
 #home img {
-	height: 50px;
+	height: 200px;
+	margin-top: 20px;
+}
+#home .col-md-5 {
+
 }
 #contact {
 	background-color: white;
@@ -519,6 +523,24 @@ border: none !important;
 	margin-right: 5%;
 	float: right;
 	margin-top: 10px;
+}
+#permaculture {
+  margin-top: 10%;
+  margin-bottom: 12%;
+	margin-left: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+#permaculture h2 {
+	  font-family: 'GrandHotelRegular';
+		font-size: 40px;
+}
+#permaculture h3 {
+  text-align: left;
+  margin-right: 10%;
+}
+#permaculture .col-md-5 img {
+	height: 600px;
+	margin-right: 3%;
 }
 .center-block {
     display: block;
