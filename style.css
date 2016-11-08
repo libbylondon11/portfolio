@@ -14,7 +14,7 @@
 	 background-repeat:no-repeat;
 	 border-color: transparent;
 }
-/*.aqua {
+.aqua {
     position: absolute;
     top: 15px;
     bottom: 0;
@@ -26,7 +26,7 @@
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
-}*/
+}
 a:hover img {
 border: none !important;
 display: block;
@@ -118,6 +118,7 @@ display: block;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("WhitePowder4.png");
+		background-size: 90%;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
@@ -131,7 +132,7 @@ display: block;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("TDTipad.png");
-		background-size: 25%;
+		background-size: 60%;
 		background-position:center center;
 	 	background-repeat:no-repeat;
 }
@@ -145,4 +146,14 @@ display: block;
    font-style: normal;
    font-size: 70px;
    color: black;
+}
+#portfolio h1 {
+	font-family: 'GrandHotelRegular';
+	font-size: 50px;
+	color: black;
+}
+#contact h1 {
+	font-family: 'GrandHotelRegular';
+	font-size: 50px;
+	color: black;
 }
