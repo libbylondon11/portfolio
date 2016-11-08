@@ -430,8 +430,8 @@ border: none !important;
 	height: 200px;
 	margin-top: 20px;
 }
-#home .col-md-5 {
-
+#home .col-md-4 {
+margin-top: 20px;
 }
 #contact {
 	background-color: white;
