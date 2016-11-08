@@ -421,6 +421,11 @@ border: none !important;
 #home {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	height: 100%;
+}
+#libby img {
+  display: center;
+	height: 200px;
 }
 #contact {
 	background-color: white;
