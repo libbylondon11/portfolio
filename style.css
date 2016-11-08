@@ -429,12 +429,16 @@ border: none !important;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-#home .col-md-7 p {
+.col-md-7 p {
 	text-align: center;
   margin-top: 30px;
 	margin-bottom: 10px;
-	font-size: 20px;
+	font-size: 30px;
+  font-style: bold;
   color: black;
+}
+#home {
+  height: 80%;
 }
 #home img {
 	height: 200px;
@@ -446,7 +450,7 @@ border: none !important;
 	background-color: white;
 }
 #contact a {
-  size: 100px;
+  height: 300px;
 }
 #cppe h2 {
 	font-family: 'GrandHotelRegular';
@@ -508,7 +512,7 @@ border: none !important;
 }
 .tdtTop img {
 	margin-top: 40px;
-	height: 400px;
+	height: 450px;
 }
 .bulkTop img {
 	height: 800px;
