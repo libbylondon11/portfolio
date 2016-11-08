@@ -24,7 +24,7 @@ p {
 border: none !important;
 }
 #about {
-	background-color: mediumturquoise;
+	background-color: lightcoral;
 }
 #portfolio a {
     text-decoration: none !important;
@@ -399,7 +399,7 @@ border: none !important;
 	border-color: black;
 }
 #home {
-	background-color: mediumturquoise;
+	background-color: lightcoral;
 }
 #home h4 {
 	font-family: 'GrandHotelRegular';
@@ -454,11 +454,11 @@ border: none !important;
 }
 .nyTop img {
 	margin-top: 40px;
-	height: 300px;
+	height: 250px;
 }
 .tdtTop img {
 	margin-top: 40px;
-	height: 500px;
+	height: 400px;
 }
 .bulkTop img {
 	height: 800px;
