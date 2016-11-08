@@ -16,6 +16,10 @@
 .row {
 border: none !important;
 }
+a {
+    text-decoration: none !important;
+		border: none !important;
+}
 .aqua {
     position: absolute;
     top: 15px;
