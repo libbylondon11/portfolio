@@ -26,7 +26,6 @@ animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
 animation-duration: 10s;
 animation-direction: alternate;
-height: 80%;
 }
 /*@keyframes cf3FadeInOut {
   0% {
@@ -129,12 +128,12 @@ svg {
 	margin-bottom: 10px;
 }
 
-body {
+/*body {
   margin:0;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   margin:0; padding:0; box-sizing:border-box;
-}
+}*/
 
 .navbar-ex1-collapse {
   float: right;
@@ -847,9 +846,7 @@ figcaption {
 	text-align: center;
     display:center;
 }
-.dummy {
-    margin-top: 100%;
-}
+
 .thumbnail {
     position: absolute;
     top: 15px;
