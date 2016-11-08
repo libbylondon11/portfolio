@@ -385,7 +385,8 @@ border: none !important;
 	font-style: bold;
   background-color: transparent;
   white-space: normal;
-	border: .2px black;
+	border-width: .5px;
+	border-color: black;
 }
 .btn-custom:hover {
   font-family: 'Open Sans', sans-serif;
@@ -394,7 +395,8 @@ border: none !important;
   font-size: 16px;
   background-color: transparent;
   white-space: normal;
-		border: .2px black;
+	border-width: .5px;
+	border-color: black;
 }
 #home {
 	background-color: mediumturquoise;
@@ -449,4 +451,15 @@ border: none !important;
 #cppe .col-sm-4 img {
 	height: 400px;
 	margin-top: 40px;
+}
+.nyTop img {
+	margin-top: 40px;
+	height: 300px;
+}
+.tdtTop img {
+	margin-top: 40px;
+	height: 500px;
+}
+.bulkTop img {
+	height: 800px;
 }
