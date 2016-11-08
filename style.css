@@ -27,7 +27,7 @@
 		background-position:center center;
 	 background-repeat:no-repeat;
 }
-a:hover img {
+a:hover{
 border: none !important;
 display: block;
 }
@@ -67,9 +67,6 @@ display: block;
     background:rgba(0,0,0,0.8);
 }
 
-
-
-
 .gold {
     position: absolute;
     top: 15px;
@@ -92,6 +89,7 @@ display: block;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("nileDesktop.png");
+		background-size: 90%;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
@@ -132,7 +130,7 @@ display: block;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("TDTipad.png");
-		background-size: 60%;
+		background-size: 70%;
 		background-position:center center;
 	 	background-repeat:no-repeat;
 }
