@@ -28,16 +28,17 @@ border: none !important;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
+	 border: none !important;
 }
 
-.dummy:after, .dummy:before {
+.aqua:after, .agua:before {
       position: absolute;
       opacity: 0;
       transition: all 1.0s;
       -webkit-transition: all 1.0s;
 }
 
-.dummy:before {
+.agua:before {
     content: attr(data-content);
     /*content: attr(href);*/
     width: 100%;
@@ -51,7 +52,7 @@ border: none !important;
     /*box-sizing: border-box;*/
     -moz-box-sizing:border-box;
 }
-.dummy:after {
+.agua:after {
     content: "Web Development, UX, & Design";
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -75,10 +76,11 @@ border: none !important;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("cppe.png");
-		background-size: 80%;
+		background-size: 60%;
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
+	 border: none !important;
 }
 .red {
     position: absolute;
