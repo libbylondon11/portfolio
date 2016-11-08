@@ -17,15 +17,6 @@ html, body {
 		margin-left: 5px;
 		color: grey;
 }
-#about {
-/*background: linear-gradient(0deg, #01243D, #024473, #246B9E);*/
-/*background: pink;*/
-animation-name: cf3FadeInOut;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 10s;
-animation-direction: alternate;
-}
 
 .page-scroll .btn-default([disabled]):hover {
 }
@@ -44,11 +35,7 @@ html {
 @media (max-width: @screen-xs) {
     .container{font-size: 10px;}
 }
-/*.container p {
-  text-align: center;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-}*/
+
 svg {
   display: block;
   margin-bottom: 0px;
@@ -136,22 +123,7 @@ svg {
    color: black;
 }
 
-#about {
-/*background: url('images/LibbyLondon.png');
 
-height: 50px;*/
-/*background-size: cover;*/
-
-}
-
-/*#libby {
-  height: 200px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  display: center;
-  margin-left: 20px;
-  margin-right: 20px;
-}*/
 #libby img {
   display: center;
 }
