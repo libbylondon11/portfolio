@@ -14,7 +14,7 @@
 	 background-repeat:no-repeat;
 	 border-color: transparent;
 }
-.aqua {
+/*.aqua {
     position: absolute;
     top: 15px;
     bottom: 0;
@@ -26,19 +26,19 @@
 		background-size: cover;
 		background-position:center center;
 	 background-repeat:no-repeat;
-}
+}*/
 a:hover img {
 border: none !important;
 display: block;
 }
-.thumbnail:after, .thumbnail:before {
+.gold:after, .gold:before {
       position: absolute;
       opacity: 0;
       transition: all 1.0s;
       -webkit-transition: all 1.0s;
 }
 
-.thumbnail:before {
+.gold:before {
     content: attr(data-content);
     /*content: attr(href);*/
     width: 100%;
@@ -52,7 +52,7 @@ display: block;
     /*box-sizing: border-box;*/
     -moz-box-sizing:border-box;
 }
-.thumbnail:after {
+.gold:after {
     content: "Web Development, UX, & Design";
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -131,9 +131,9 @@ display: block;
     text-align:center;
     padding-top:calc(50% - 30px);
 		background-image:url("TDTipad.png");
-		background-size: cover;
+		background-size: 25%;
 		background-position:center center;
-	 background-repeat:no-repeat;
+	 	background-repeat:no-repeat;
 }
 #about {
 	height: 85%;
