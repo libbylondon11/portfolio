@@ -495,3 +495,26 @@ border: none !important;
 .bulkTop img {
 	height: 800px;
 }
+#ny .col-md-6 img {
+	height: 300px;
+}
+#ny {
+  margin-top: 10%;
+  margin-bottom: 12%;
+	margin-left: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+#ny h2 {
+	  font-family: 'GrandHotelRegular';
+		font-size: 40px;
+}
+#ny h3 {
+  text-align: left;
+  margin-right: 10%;
+}
+#ny .col-md-5 img {
+	height: 400px;
+	margin-right: 5%;
+	float: right;
+	margin-top: 10px;
+}
