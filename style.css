@@ -419,8 +419,8 @@ border: none !important;
 	font-size: 25px;
 }
 #home {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 #contact {
 	background-color: white;
@@ -468,6 +468,16 @@ border: none !important;
 #cppe .col-sm-4 img {
 	height: 400px;
 	margin-top: 40px;
+}
+#cppe .container-bottom img {
+	height: 500px;
+}
+#cppe .bottom img {
+	height: 400px;
+}
+#permaculture .container-bottom img {
+	height: 500px;
+	margin-top: 5px;
 }
 .nyTop img {
 	margin-top: 40px;
