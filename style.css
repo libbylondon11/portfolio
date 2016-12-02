@@ -447,8 +447,8 @@ border: none !important;
 #contact {
 	background-color: white;
 }
-.fa-github{
-  height: 100px;
+.fa .fa-github{
+  height: 200px;
 }
 #linkedin {
   height: 200px;
