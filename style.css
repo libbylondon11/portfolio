@@ -429,6 +429,12 @@ border: none !important;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
+#home .col-md-7 p {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
 #home p {
 	text-align: center;
   margin-top: 22px;
