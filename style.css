@@ -50,7 +50,7 @@ border: none !important;
 	right: 0;
 	text-align:center;
 	padding-top:calc(50% - 30px);
-	background-image:url("ny.png");
+	background-image:url("2harvest1.png");
 	background-size: cover;
 	background-position:center center;
  background-repeat:no-repeat;
@@ -174,7 +174,7 @@ border: none !important;
 }
 
 .aqua:after {
-    content: "Nearest You - Local Food Finder";
+    content: "Second Harvest Heartland Annual Report 2016";
     color:white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
